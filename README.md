@@ -1,1 +1,1 @@
-# Smith-Pad
+# Lesson-Template
