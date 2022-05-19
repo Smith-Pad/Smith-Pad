@@ -88,31 +88,31 @@ body {
 
 
  /* Keyframes */
- @keyframes layouts {
- 	from {
- 		padding: 30em 1em;
- 	}
+@keyframes layouts {
+        from {
+                padding: 30em 1em;
+        }
 
- 	to {
- 		padding: auto;
- 	}
- }
+        to {
+                padding: auto;
+        }
+}
 
- @keyframes foil-buttons-effect {
- 	from {
+@keyframes foil-buttons-effect {
+        from {
 
- 		font-size: 500%;
+                font-size: 500%;
 
- 	}
- }
+        }
+}
 
- @keyframes foil-buttons-no-animate-effect {
- 	from {
- 		padding: 100px 100px;
+@keyframes foil-buttons-no-animate-effect {
+        from {
+                padding: 100px 100px;
 
 
- 	}
- }
+        }
+}
 
 
  /********************************************
@@ -121,7 +121,8 @@ body {
 
 /*******************************************/
 
- .layout {
+ .layout 
+ {
  	background-color: rgb(95, 95, 95);
  	color: white;
  	padding: 10em 1em;
@@ -137,7 +138,8 @@ body {
 
 
  /* No Animation */
- .get-no-layout-indicator-side-round {
+ .get-no-layout-indicator-side-round 
+ {
  	background-color: rgb(95, 95, 95);
  	color: white;
  	padding: 1px 1em;
@@ -147,18 +149,21 @@ body {
 
 
  /* With Animations */
- .layout.side-round {
+ .layout.side-round 
+ {
  	border-radius: 10px;
  	height: 10vh;
 
  }
 
- .layout.side-round.indicator {
+ .layout.side-round.indicator 
+ {
  	height: 10vh;
 
  }
 
- .layout.indicator-side-round {
+ .layout.indicator-side-round 
+ {
  	padding: 1px 1em;
  	border-radius: 10px;
  }
@@ -269,8 +274,22 @@ Contents of Subclasses {
  /*******************************************/
 
  .layout.animate-sunset-theme {
- 	/*background: linear-gradient(190deg, #341801, #9f3b02, #963600, #bf4500, #e15100, #000000, #000000, #000000);*/
- 	background: linear-gradient(190deg, #030000, #160200, #290300, #3d0400, #500600, #640700, #770900, #8b0a00, #9f0c00, #b20d00);
+ 	background: linear-gradient
+	 (
+		 190deg, 
+		 #030000, 
+		 #160200,
+		 #290300, 
+		 #3d0400, 
+		 #500600, 
+		 #640700, 
+		 #770900, 
+		 #8b0a00, 
+		 #9f0c00, 
+		 #b20d00
+		 
+	);
+		 
  	background-size: 1600% 1600%;
 
  	-webkit-animation: Sunset-Theme 17s ease infinite;
