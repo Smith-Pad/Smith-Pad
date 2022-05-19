@@ -1,0 +1,20 @@
+ /* Table */
+ table,
+ td {
+ 	width: 82em;
+ 	height: 32em;
+
+ }
+
+ th {
+ 	font-size: 30px;
+ }
+
+ thead {
+ 	border-radius: 40px;
+ }
+
+ tfoot {
+ 	background-color: #333;
+ 	color: #fff;
+ }
