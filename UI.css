@@ -19,3 +19,11 @@ body {
  * {
  	user-select: none;
  }
+
+
+
+@import url(./buttons.css);
+@import url(./font-color.css);
+@import url(./font-size.css);
+@import url(./layouts.css);
+@import url(./table.css);
