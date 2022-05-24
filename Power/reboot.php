@@ -17,44 +17,8 @@ exec("sudo reboot");
 </style>
 
 <center>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
-    <div class="space"></div>
 
+    <?php include '../src/avakasaya/space37.php'?>
 
 <fontsize90> Rebooting.... </fontsize90> 
 </center>
