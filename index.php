@@ -1,7 +1,7 @@
 <!-- 
     index.php
 
-    A minimalist digital clock for Smith-Pad Web Interface. 
+    A minimalist digital clock for the Smith-Pad Web Interface. 
 -->
 
 <?php include 'System_Files/system.global.app.include.ui.php'; ?>
