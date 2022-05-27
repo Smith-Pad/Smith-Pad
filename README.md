@@ -1,6 +1,6 @@
 # Smith-Pad
 
-![Twitter post - 4.png](https://res.craft.do/user/full/23a03a79-af5e-1af9-b4ff-27170389b6b1/doc/09230642-5B39-4E9F-974D-4D676AEBBF43/12ACEF02-FA0F-4C92-8F24-18E23209BD0B_2/rrP4JE46DUIhhoM2PI2QoBqsqhw9Lu3yvBnZDD5cenAz/Twitter%20post%20-%204.png)
+![Twitter post - 4.png](https://res.craft.do/user/full/23a03a79-af5e-1af9-b4ff-27170389b6b1/doc/09230642-5B39-4E9F-974D-4D676AEBBF43/D127EE3B-AC05-4789-8962-D2E7B01ADC65_2/OTCANQxFU28w30wCwCFZAfMQVGKoT3WhOFPLW8KYMOIz/Twitter%20post%20-%204.png)
 
 
 [![Discord Badge](https://img.shields.io/discord/951544472238444645?color=5865F2&label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/neSrTVgbkF)
