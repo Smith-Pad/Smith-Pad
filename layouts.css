@@ -74,6 +74,19 @@
 }
 
 
+/********************************************
+	Subclasses for Layouts
+*********************************************
+	Contents of Subclasses {
+		- Regular Layout Subclasses 
+		- Layout Side Round Subclasses
+		- Layout Side Round Indicator
+		- Layout Indicator Side Round
+	}
+/*******************************************/
+
+
+
 /********************************************             
            Layout Side Round Subclasses
 /*******************************************/
@@ -107,16 +120,7 @@
 	border-radius: 10px;
 }
 
-/********************************************
-	Subclasses for Layouts
-*********************************************
-	Contents of Subclasses {
-		- Regular Layout Subclasses 
-		- Layout Side Round Subclasses
-		- Layout Side Round Indicator
-		- Layout Indicator Side Round
-	}
-/*******************************************/
+
 
 
 
