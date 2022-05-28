@@ -85,8 +85,6 @@
 }
 
 
-
-
 /********************************************             
            Layout Side Round Subclasses
 /*******************************************/
@@ -110,10 +108,9 @@
 
 
 
-.layout.side-round.indicator {
-	height: 10vh;
-
-}
+/********************************************  
+     Layout Indicator Side Round
+/*******************************************/
 
 .layout.indicator-side-round {
 	padding: 1px 1em;
@@ -127,14 +124,19 @@
 
 
 
+/********************************************  
+     Layout Side Round Indicator
+/*******************************************/
 
 
+.layout.side-round.indicator {
+	height: 10vh;
 
-
+}
 
 /********************************************  
      Layout Side Round Indicator Subclasses
-  /*******************************************/
+/*******************************************/
 
 
 .layout.side-round.indicator.color-is-red {
