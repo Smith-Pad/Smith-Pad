@@ -11,6 +11,15 @@
 
 }
 
+button:hover {
+        background-color: rgb(1, 179, 1);
+        color: black;
+        transition-duration: 0.2s;
+
+
+
+}
+
 /* Default Animated Button Substitutes */
 
 .button.is-red {
@@ -228,12 +237,4 @@
         color: black;
         transition-duration: 0.2s;
         font-size: 40px;
-}
-
-button:hover {
-        background-color: rgb(1, 179, 1);
-        color: black;
-        transition-duration: 0.2s;
-
-
 }
