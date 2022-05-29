@@ -101,27 +101,22 @@ button:hover {
 
 
 
-
-
-
-.button-no-animate-small {
+.button.small {
         padding: 4px 2px;
-        background-color: black;
-        border: none;
-        text-decoration: none;
-        color: white;
+
 }
 
-.button-no-animate-small:hover {
+.button.small:hover {
         background-color: green;
         color: white;
         transition-duration: 0.2s;
 }
 
-.button-no-animate-small:active {
+.button.small:active {
         background-color: orange;
         color: black;
-        transition-duration: 0.2s
+        transition-duration: 0.2s;
+        font-size: 40px;
 }
 
 .button-no-animate-mode {
@@ -136,6 +131,8 @@ button:hover {
         margin: 20px;
 
 }
+
+
 
 /* Button No Animate Mode Substitutes*/
 
@@ -221,20 +218,27 @@ button:hover {
 
 
 
-.button.small {
-        padding: 4px 2px;
 
+
+
+.button-no-animate-small {
+        padding: 4px 2px;
+        background-color: black;
+        border: none;
+        text-decoration: none;
+        color: white;
 }
 
-.button.small:hover {
+.button-no-animate-small:hover {
         background-color: green;
         color: white;
         transition-duration: 0.2s;
 }
 
-.button.small:active {
+
+
+.button-no-animate-small:active {
         background-color: orange;
         color: black;
-        transition-duration: 0.2s;
-        font-size: 40px;
+        transition-duration: 0.2s
 }
