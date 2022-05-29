@@ -16,6 +16,7 @@
 .button-no-animate-small {
         padding: 4px 2px;
         background-color: black;
+        border: none;
         text-decoration: none;
         color: white;
 }
