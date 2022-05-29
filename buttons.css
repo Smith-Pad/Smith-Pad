@@ -155,7 +155,7 @@
         color: white;
 }
 
-.button.yellow:hover {
+.button.is-yellow:hover {
         background-color: green;
         color: white;
         transition-duration: 0.2s;
@@ -163,7 +163,7 @@
 
 }
 
-.button.yellow:active {
+.button.is-yellow:active {
         background-color: orange;
         color: black;
         transition-duration: 0.2s;
