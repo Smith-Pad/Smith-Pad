@@ -208,7 +208,7 @@ button:hover {
 
 }
 
-.button-no-aniamte-mode.is-pink:active {
+.button-no-animate-mode.is-pink:active {
         background-color: orange;
         color: black;
         transition-duration: 0.2s;
