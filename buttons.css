@@ -1,14 +1,16 @@
 .button {
         background-color: black;
-        padding: 16px 43px;
         border: none;
         color: white;
-        font-size: 18px;
+        padding: 16px 43px;
+        text-align: center;
         text-decoration: none;
-        animation-name: foil-buttons-effect;
-        animation-duration: 2s;
-        margin: 20px;
-
+        display: inline-flex;
+        border-radius: 10px;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.2s;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.459), 0 20px 20px 0 rgba(61, 61, 61, 0.589);
 }
 
 button:hover {
