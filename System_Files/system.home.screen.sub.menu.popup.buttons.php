@@ -6,4 +6,4 @@
 ---------------------------------------------------------------->
 
 
-<a href="#" class="button"onClick="Calculator=window.open( './','Calculator', 'width=600,height=1000'); return false;">Calculator</a>
+<a href="#" class="button"onClick="Calculator=window.open( './APPS/APPS-Calculator/index.php','Calculator', 'width=600,height=1000'); return false;">Calculator</a>
