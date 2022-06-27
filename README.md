@@ -37,8 +37,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > plasma
 
-> gnome
-
 > lxqt
 
 
@@ -65,8 +63,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 > node.js
 
 > plasma
-
-> gnome
 
 > lxqt
 
