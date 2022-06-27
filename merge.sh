@@ -26,4 +26,4 @@ git add *
 git commit -m "Merged from [https://github.com/Smith-Pad/Smith-Pad/tree/Smith-Pad-OS-Shell"
 
 
-git push origin main
+git push origin Smith-Pad-OS-Shell
