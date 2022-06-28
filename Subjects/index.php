@@ -37,9 +37,9 @@ include 'System_Files/system.subjects.header.bar.php';                          
  * This is included in System_Files/system.subjects.list.php
  ******************************************************************/
 
-$MAIN_MENU_SUBJECTS_LIST_Math = "<a href='/Math/Math-Menu.php' class ='FOIL-button'>Math</a>";                                           
-$MAIN_MENU_SUBJECTS_LIST_Reading = "<a href='/Reading/Reading-Menu.php' class ='FOIL-button'>Reading</a>";
-$MAIN_MENU_SUBJECTS_LIST_Science = "<a href='/Science/Science-Menu.php' class='FOIL-button'>Science</a>";
+$MAIN_MENU_SUBJECTS_LIST_Math = "<a href='./Math/Math-Menu.php' class ='FOIL-button'>Math</a>";                                           
+$MAIN_MENU_SUBJECTS_LIST_Reading = "<a href='./Reading/Reading-Menu.php' class ='FOIL-button'>Reading</a>";
+$MAIN_MENU_SUBJECTS_LIST_Science = "<a href='./Science/Science-Menu.php' class='FOIL-button'>Science</a>";
 $MAIN_MENU_SUBJECTS_LIST_BACK_BUTTON = print("<a href='../index.php' class='FOIL-button'>Back</a>"); 
 
 
