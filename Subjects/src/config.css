@@ -1,0 +1,39 @@
+/*******************************************************
+ *		config.css
+ *
+ *
+ *	Customize FOIL-UI.css  Components
+ *******************************************************/
+
+@import url('FOIL-UI.css');
+
+body {
+        background-color: black;
+        color: white;
+}
+
+.FOIL-button {
+        background-color: transparent;
+        font-size: 30px;
+        border-style: solid;
+        border-radius: 0px;
+}
+
+.FOIL-button:hover {
+        background-color: green;
+        border-style: solid;
+        border-shadow: none;
+}
+
+.FOIL-button-small {
+        background-color: transparent;
+        font-size: 10px;
+        border-style: solid;
+}
+
+
+
+
+h1 {
+        color: white;
+}

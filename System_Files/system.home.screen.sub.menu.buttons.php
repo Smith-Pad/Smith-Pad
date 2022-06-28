@@ -7,5 +7,5 @@
 <a href="#settings" class="button">Settings</a>
 <a href="schedule-display.php" class="button">Schedule Display</a>
 <a href="Math-Operations.php" class="button">Math Operations</a>
-<a href="./Subjects/Subjects.php" class="button">Subjects</a>
+<a href="./Subjects/undex.php" class="button">Subjects</a>
 <a href="./APPS/APPS-Clock/index.php" class="button">Clock Mode</a>
