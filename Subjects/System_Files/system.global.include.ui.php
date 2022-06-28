@@ -6,6 +6,16 @@
 ---------------------------------------------------------------->
 
 
-<link rel="stylesheet" href="../../src/index.css" type="text/css">
-<link rel="stylesheet" href="../../src/UI.css" type="text/css">
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/index.css" type="text/css">
+<link rel="stylesheet" href="../src/Custom_Tags.css" type="text/css">
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/position-text.css" type="text/css">
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/UI.css" type="text/css">
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/FOIL-Bar.css" type="text/css">
 
+
+
+
+
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/FOIL-UI.css" type="text/css">
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/index.css" type="text/css">
+<link rel="stylesheet" href="../../src/Subjects-UI-Components/config.css" type="text/css">
