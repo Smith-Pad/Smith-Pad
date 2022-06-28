@@ -10,3 +10,13 @@
 
 
 > NOTE: This branch will be deleted when it is finally merged to other branches
+
+
+
+### TODO: 
+
+> Redesign the Subjects Interface
+
+> Re-organize the code in php
+
+> Lessons code need to be organized??
