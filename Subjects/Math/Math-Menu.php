@@ -246,7 +246,7 @@ print("</div>");
 /************************************************************************************************ */
 print("<div class='FOIL-Layout color-is-black'>");
 print("<h2>Senal's Real World</h2>");
-print("<a href='Money-Problems/splashscreen_1.html' class='button is-pink button-no-animate-mode'>Real World Money Problems</a>");
+print("<a href='./Money-Problems/splashscreen_1.html' class='button is-pink button-no-animate-mode'>Real World Money Problems</a>");
 print("</div>");
 /************************************************************************************************ */
 ?>
