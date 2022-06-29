@@ -5,4 +5,5 @@
 ---------------------------------------------------------------->
 
 <a href="#settings" class="button">Settings</a>
-<a href="http://localhost:4000/EXTERNAL_ROUTE_APPS/index.php" class="button">Test-Menu</a>
+<a href="/launch-first-app.php" class="button">Launch First App</a>
+<a href="/launch-second-app.php" class="button">Launch Second App</a>
