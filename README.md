@@ -133,7 +133,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 ├── Math-Operations.php
 ├── merge-reverse.sh
 ├── merge.sh
-├── output
 ├── package.json
 ├── Power
 │   ├── reboot.php
