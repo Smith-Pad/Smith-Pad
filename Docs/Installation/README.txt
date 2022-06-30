@@ -6,5 +6,4 @@
 
 
 ├── Dependencies.md
-├── output
 └── README.txt
