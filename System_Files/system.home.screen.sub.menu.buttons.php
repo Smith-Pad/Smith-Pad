@@ -5,6 +5,6 @@
 ---------------------------------------------------------------->
 
 <a href="#settings" class="button">Settings</a>
-<a href="/launch-first-app.php" class="button">Launch First App</a>
-<a href="/launch-second-app.php" class="button">Launch Second App</a>
-<a href="/launch-third-app.php" class="button">Launch Third App</a>
+<a href="/launch-first-app.php" class="button">KDE Konsole</a>
+<a href="/launch-second-app.php" class="button">KDE System Settings</a>
+<a href="/launch-third-app.php" class="button">Search</a>
