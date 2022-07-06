@@ -32,7 +32,6 @@
                 <fontsize70></fontsize70>
                 <fontsize60>Menu</fontsize60>
                 <?php include "src/avakasaya/space2.php"?>
-                <a href="EXTERNAL_ROUTE_APPS/test.php" class="TEST BUTTON"</p>
                 <?php include "src/avakasaya/space7.php"?> 
         </div>
 
