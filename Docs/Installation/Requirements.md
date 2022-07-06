@@ -1,8 +1,8 @@
-## Dependencies
+## Requirements
 
 > Smith-Pad-OS or Arch-Linux based distributions
 
-> xorg 
+> xorg
 
 > xorg-twm
 

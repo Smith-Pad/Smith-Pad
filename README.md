@@ -1,113 +1,135 @@
 # Smith-Pad-OS-Shell
+
 Smith-Pad-OS-Shell based on various of dependencies 
 
-
-
-## Goals 
+## Goals
 
 > Use Web components as a Window Manager 
 
-> Use Lightweight dependencies to improve performance, while showing the unique 
-> UI. 
-
+> Use Lightweight dependencies to improve performance, while showing the unique UI. 
 
 > Run Electron in a x11 environment (as a window manager)
 
-
-
-
-
 ## Dependencies
 
-> openbox 
-
-> KWin
-
-> electron
-
-> php
-
-> FOIL-UI-Framework-Library
-
-> xorg
-
-> npm
-
-> node.js
-
-> plasma
-
-> lxqt
-
-
-
-
-## Requirements 
-
-> Arch Linux or Smith-Pad-OS 
-
-> openbox
-
-> kwin
-
-> electron
-
-> php
+> Smith-Pad-OS or Arch-Linux based distributions
 
 > xorg 
 
-> openbox 
+> xorg-twm
 
-> npm
+> xorg-xclock
 
-> node.js
+> xterm
+
+> openbox
+
+> php
+
+> electron
 
 > plasma
 
 > lxqt
 
+> npm
 
+> node.js
 
+## Requirements
 
-## Installation 
+> Smith-Pad-OS or Arch-Linux based distributions
 
+> xorg
+
+> xorg-twm
+
+> xorg-xclock
+
+> xterm
+
+> openbox
+
+> php
+
+> electron
+
+> plasma
+
+> lxqt
+
+> npm
+
+> node.js
+
+## Installation
 
 > `sudo pacman -S base-devel`
 
-> `sudo pacman -S electron` 
-
-> `sudo pacman -S kwin`
-
-> `sudo pacman -S php`
-
 > `sudo pacman -S xorg`
+
+> `sudo pacman -S xorg-twm`
+
+> `sudo pacman -S xorg-xclock`
+
+> `sudo pacman -S xterm`
 
 > `sudo pacman -S openbox`
 
-> `sudo pacman -S npm`
+> `sudo pacman -S php`
 
-> `sudo pacman -S nodejs`
+> `sudo pacman -S electron`
 
 > `sudo pacman -S plasma`
 
 > `sudo pacman -S lxqt`
 
+> `sudo pacman -S npm`
 
+> `sudo pacman -S node.js`
 
-## Notes 
+## Running Smith-Pad-OS-Shell Locally
 
-> Make sure you have given all ROOT PRIVILEGES to the system, so that PHP 
-> will have the ability to control Hardware Power, such as shutting down, 
-> or restarting. 
+> Please follow these instructions to successfully run and debug 
+> Smith-Pad-OS-Shell for the time being. These steps may change. 
 
+1. Clone the Repository 
 
-> To do this, please run this command: 
+> `git clone https://github.com/Smith-Pad/Smith-Pad-OS-Shell`
 
-`sudo sh give-root.sh`
+2. Change the directory to Smith-Pad-OS-Shell. 
 
+> `cd Smith-Pad-OS-Shell`
 
+##### Recommendation tips.
 
-# List of Files 
+> Please open two terminal instances. One for PHP and another for Electron.
+
+###### Starting PHP and Electron
+
+3. Running PHP
+
+> `php -S localhost:3000`
+
+4. Running Electron
+
+> `electron http://localhost:3000`
+
+###### Stopping PHP and Electron
+
+5. Stopping PHP
+
+> `^C`
+
+> Press Control C to stop PHP
+
+6. Stopping Electron
+
+> `^C`
+
+> Press Control C to stop Electron
+
+# List of Files
 
 ```shell
 ├── Docs
@@ -204,7 +226,6 @@ Smith-Pad-OS-Shell based on various of dependencies
     └── system.home.screen.sub.menu.popup.buttons.php
 ```
 
+# TODO:
 
-# TODO: 
-
-> Find out why PHP doesn't open External Apps even with root permissions via /etc/sudoers
+> Find out why PHP doesn't open External Apps even with root permissions via `/etc/sudoers`

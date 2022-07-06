@@ -1,5 +1,5 @@
 ###############################################################
-## Installation
+## Running and Debugging
 ##			
 ## List of Files
 ###############################################################
@@ -8,12 +8,7 @@
 ## Contents:
 ###############################################################
 
-├── Dependencies.html
-├── Dependencies.md
-├── Installation.html
-├── Installation.md
 ├── README.txt
-├── Requirements.html
-└── Requirements.md
+└── Running-Smith-Pad-OS-Shell-Locally.md
 
 ###############################################################
