@@ -8,7 +8,7 @@
 
 	<!-- Layout-->
 	<!-- First the Layout takes place-->
-<div class="layout indicator-side-round">
+<div class="FOIL-Navigation-Bar">
 
 	<h1> Smith Pad </h1>
 
