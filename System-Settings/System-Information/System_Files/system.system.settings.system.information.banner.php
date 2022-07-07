@@ -1,7 +1,5 @@
 <!----------------------------------------------------------------
-    system.home.screen.banner.php
-
-    Used to display the banner for the Interface
+    system.system.settings.banner.php
 ---------------------------------------------------------------->
 <p id="text">
 
@@ -10,7 +8,8 @@
 	<!-- First the Layout takes place-->
 <div class="FOIL-Navigation-Bar">
 
-	<h1> Smith Pad </h1>
+	<h1> System Information  </h1>
 
-
+	<a href="../index.php" class="FOIL-button">Home</a>
+	<a href="../index.php" class="FOIL-button">Back</a>
 </div>
