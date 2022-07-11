@@ -10,7 +10,7 @@
 	<!-- First the Layout takes place-->
 <div class="FOIL-Navigation-Bar">
 
-	<h1> System Settings </h1>
+	<h1> Applications </h1>
 
 	<a href="../index.php" class="FOIL-button">Home</a>
 </div>

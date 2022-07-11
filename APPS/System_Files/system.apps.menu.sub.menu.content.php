@@ -5,10 +5,7 @@
 ---------------------------------------------------------------->
 
 <?php 
-function appsButtons() {
-	$librewolf = print('<a href="system.apps.menu.open.external.app.1.php">Librewolf</a>');
-	print($librewolf);
-}
+        
 
 
 ?>
