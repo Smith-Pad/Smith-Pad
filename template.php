@@ -1,6 +1,6 @@
 <?php
 function includeUI() {
-	include './include-UI/template.php';
+	include './Include-UI/template.php';
 }
 function customizeUI() {
 	include './Customize-UI/template.php';	
