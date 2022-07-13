@@ -1,14 +1,14 @@
 <?php
 function includeUI() {
-	include './include-UI/<topic-number>.php';
+	include './include-UI/template.php';
 }
 function customizeUI() {
-	include './Customize-UI/<topic-number>.php';	
+	include './Customize-UI/template.php';	
 }
 function navigationBar() {
-	include './Navigation-Bar/<topic-number>.php';	
+	include './Navigation-Bar/template.php';	
 }
-navigationBar();
-customizeUI();
 includeUI();
+customizeUI();
+navigationBar();
 ?>
