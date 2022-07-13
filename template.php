@@ -1,11 +1,9 @@
 <?php
-function includeUI() {
-	include './Include-UI/template.php';
-}
-function customizeUI() {
-	include './Customize-UI/template.php';	
-}
+$includeUI = include './Include-UI/template.php';
+$customizeUI = include './Content/template.php';
+$content = include './Content/template.php';
 
 includeUI();
 customizeUI();
+content();
 ?>
