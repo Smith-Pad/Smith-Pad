@@ -39,7 +39,7 @@ function secondSection() {
         print("<div class='FOIL-Layout color-is-black'>");
         print("<h1> Algebra </h1>");
         print("<h2> Intro to Algebra</h2>");
-        print("<a href='./Algebra/Intro to Algebra/index.html' class='FOIL-button color-is-pink'>Intro to Algebra</a>");
+        print("<a href='./Algebra/Intro to Algebra/index.php' class='FOIL-button color-is-pink'>Intro to Algebra</a>");
         print("<h2>Order of Operations</h2>");
         print("<a href='/' class='FOIL-button color-is-pink'>Order of Operations</a>");
         print("<a href='/' class='FOIL-button color-is-pink'>Expressions with Variables</a>");
