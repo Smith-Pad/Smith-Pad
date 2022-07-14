@@ -1,18 +1,13 @@
 <?php
-function getContent() {
 
-	print		('
+// Make a function to display the banner title in the Interface.
 
-
-                        <h1>
-                                        hello world
-                        </h1>
-
-
-
-			');	
+function banner() {
+        print('<div class="FOIL-Navigation-Bar">');
+	print('<h1> hello world </h1>');	
+        print('</div>');
 	
 }
 
-getContent()();
+banner();
 ?>

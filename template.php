@@ -1,9 +1,6 @@
 <?php
 $includeUI = include './Include-UI/template.php';
-$customizeUI = include './Content/template.php';
+$customizeUI = include './Customize-UI/template.php';
 $content = include './Content/template.php';
-
-includeUI();
-customizeUI();
-content();
+$navigationBar = include './Navigation-Bar/template.php';
 ?>
