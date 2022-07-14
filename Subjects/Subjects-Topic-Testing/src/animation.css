@@ -1,0 +1,41 @@
+/*******************************************************
+ *		animation.css
+ *
+ *******************************************************/
+
+
+@import url(./FOIL-UI.css);
+
+.FOIL-Navigation-Bar {
+        animation-name: navigation-bar-animation;
+        animation-duration: 2s;
+}
+
+.FOIL-Layout {
+        animation-name: layout-animation;
+        animation-duration: 2s;
+}
+
+
+@keyframes navigation-bar-animation {
+        from {
+                font-size: 0px;
+
+        }
+
+
+        from {
+                padding: auto;
+        }    
+}
+
+@keyframes layout-animation {
+        from {
+                padding: 1000px;
+        }
+
+
+        from {
+                padding: auto;
+        }
+}
