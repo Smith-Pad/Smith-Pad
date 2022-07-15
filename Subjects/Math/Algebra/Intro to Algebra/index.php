@@ -1,1 +1,1 @@
-<?php ?>
+<?php include './System_Files/Content/index.php';?>
