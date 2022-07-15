@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Smith-Pad-OS-Shell
+Comment=This session logs you into the Smith-Pad-OS-Shell
+Exec=/usr/bin/electron
+Icon=
+Type=Application
