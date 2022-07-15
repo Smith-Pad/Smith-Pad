@@ -88,6 +88,18 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > `sudo pacman -S node.js`
 
+#### Manual: Adding Config Files:
+
+> In-order to get Smith-Pad-OS-Shell running, please follow the following directions provided here.
+> 
+> > # Adding to /usr/share/xsessions
+> 
+> > > `cd xsessions`
+> 
+> > > `sudo cp shell.desktop /usr/share/xsessions/`
+
+
+
 ## Running Smith-Pad-OS-Shell Locally
 
 > Please follow these instructions to successfully run and debug 
