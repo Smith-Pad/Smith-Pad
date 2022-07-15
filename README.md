@@ -40,27 +40,27 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > Smith-Pad-OS or Arch-Linux based distributions
 
-> xorg
+> `xorg`
 
-> xorg-twm
+> `xorg-twm`
 
-> xorg-xclock
+> `xorg-xclock`
 
-> xterm
+> `xterm`
 
-> openbox
+> `openbox`
 
-> php
+> `php`
 
-> electron
+> `electron`
 
-> plasma
+> `plasma`
 
-> lxqt
+> `lxqt`
 
-> npm
+> `npm`
 
-> node.js
+> `node.js`
 
 ## Installation
 
