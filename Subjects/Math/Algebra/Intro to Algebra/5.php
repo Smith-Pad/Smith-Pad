@@ -20,13 +20,22 @@
     color: black;
 
   }
+
+  h1 {
+    font-size: 65px;
+  }
+
+  hr {
+    width: 120;
+    background-color: white;
+    color: black;
+  }
 </style>
 
 <div class="bar">
-  <a href="./1.html" class="button small button is-red button-no-animate-mode">Back &#8656;</a>
-  <a href="./index.html" class="button small button is-red button-no-animate-mode">Home &#9750;</a>
-  <a href="./3.html" class="button small button is-red button-no-animate-mode">Next &rArr;</a>
-  <a href="#" class="button"onClick="Calculator=window.open( '../../../../../Smith-Pad/APPS/calculator.html','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
+  <a href="./4.php" class="button small button is-red button-no-animate-mode">Back &#8656;</a>
+  <a href="./index.php" class="button small button is-red button-no-animate-mode">Home &#9750;</a>
+  <a href="#" class="button"onClick="Calculator=window.open( '../../../../../Smith-Pad/APPS/calculator.php','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
 
 </div>
 <div class="space"></div>
@@ -47,27 +56,34 @@
 <div class="space"></div>
 <div class="space"></div>
 
+<!-- 
+
+    Example format 
+
+    x + 4 = 8 
+      - 4 = 4  -
+    ____________
+        x = 4 
+
+-->
+
 <div class="indicator is-off button-no-animate-mode">
-  <fontsize70>Variable</fontsize70>
-  <ul></ul>
-  <h1>A Variable is a symbol of a number that it is invisible and that we never know it yet. </h1>
-  <ul></ul>
-  <h1> For Instance: </h1>
+  <fontsize50> Step-3 </fontsize50>
+
   <h1 align="center">
-    <boxer>
-      <fontcolorRED>x</fontcolorRED> + 4 = 8
-    </boxer>
+    <boxer> x = 4 </boxer>
   </h1>
-  <ul> </ul>
-  <h3 align="center">x is the invisible number of something </h3>
-  <h3 align="center">But you can tell, that x = 4 by doing this</h3>
+  <h3 align="center"> And that's the answer</h3>
+
   <ul></ul>
   <div class="space"></div>
   <div class="space"></div>
   <div class="space"></div>
   <div class="space"></div>
 
-  <center>
-    <a href="3.html" class="button">Show me. </a> </center>
+  <center><a href="../../Math-Menu.php" class="button">Go back to Main Menu </a>
+
+    <a href="2.php" class="button">Go back to Step-1 </a></center>
+
 
 </div>
