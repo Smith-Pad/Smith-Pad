@@ -1,34 +1,3 @@
-<?php
-print('<link rel="stylesheet" href="./src/layouts.css" type="text/css">');
-print('<link rel="stylesheet" href="./src/position-text.css" type="text/css">');
-print('<link rel="stylesheet" href="./src/UI.css" type="text/css">');
-print('<link rel="stylesheet" href="./index.css" type="text/css">');
-print('<link rel="stylesheet" href="./background.css" type="text/css">');
-
-?>
-
-<style>
-  @import './background.css';
-
-  body {
-    overflow: none;
-
-    color: white;
-    background: var(--main-color-17);
-  }
-</style>
-
-
-
-<div class="bar">
-
-  <a href="../../Math-Menu.php" class="button small button is-red button-no-animate-mode">Home &#9750;</a>
-  <a href="1.php" class="button small button is-red button-no-animate-mode">Next &rArr; </a>
-  <a href="#" class="button"onClick="Calculator=window.open( '../../../../APPS/calculator.php','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
-
-  
-</div>
-
 <!-- 16 Spaces --> 
 
 <div class="indicator is-off">
