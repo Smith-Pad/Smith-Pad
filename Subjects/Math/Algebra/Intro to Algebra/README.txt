@@ -63,17 +63,33 @@ List of Files
 │   ├── position-text.css
 │   └── UI.css
 ├── System_Files
-│   ├── Files
+│   ├── Content
 │   │   ├── 1.php
 │   │   ├── 2.php
 │   │   ├── 3.php
 │   │   ├── 4.php
 │   │   ├── 5.php
 │   │   └── index.php
-│   ├── README.txt
-│   ├── system.content.php
-│   ├── system.customize.ui.php
-│   ├── system.include.ui.php
-│   └── system.navigation.bar.php
+│   ├── Customize-UI
+│   │   ├── 1.php
+│   │   ├── 2.php
+│   │   ├── 3.php
+│   │   ├── 4.php
+│   │   ├── 5.php
+│   │   └── index.php
+│   ├── Include-UI
+│   │   ├── 1.php
+│   │   ├── 2.php
+│   │   ├── 3.php
+│   │   ├── 4.php
+│   │   ├── 5.php
+│   │   └── index.php
+│   └── Navigation-Bar
+│       ├── 1.php
+│       ├── 2.php
+│       ├── 3.php
+│       ├── 4.php
+│       ├── 5.php
+│       └── index.php
 ├── test.php
 └── transition.css
