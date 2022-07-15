@@ -7,17 +7,6 @@ print('<link rel="stylesheet" href="./background.css" type="text/css">');
 
 ?>
 
-<?php 
-
-include './System_Files/system.customize.ui.php';
-
-
-?>
-
-
-
-
-
 <style>
   @import './background.css';
 
@@ -40,25 +29,7 @@ include './System_Files/system.customize.ui.php';
   
 </div>
 
-
-
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
+<!-- 16 Spaces --> 
 
 <div class="indicator is-off">
   <fontsize50>
@@ -73,38 +44,10 @@ include './System_Files/system.customize.ui.php';
   <a href="3.php" class="button">3</a>
   <a href="4.php" class="button">4</a>
   <a href="5.php" class="button">5</a>
-
-
-
 </div>
 
 <ul></ul>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
 
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
-<div class="space"></div>
+<!-- 25 Spaces --> 
 
 </div>
