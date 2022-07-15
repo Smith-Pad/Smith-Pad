@@ -7,7 +7,12 @@ print('<link rel="stylesheet" href="./background.css" type="text/css">');
 
 ?>
 
+<?php 
 
+include './System_Files/system.customize.ui.php';
+
+
+?>
 
 
 
