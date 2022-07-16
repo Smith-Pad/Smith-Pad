@@ -1,4 +1,19 @@
-<!-- 16 Spaces --> 
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
 
 <div class="indicator is-off">
   <fontsize50>
@@ -18,6 +33,30 @@
 
 <ul></ul>
 
-<!-- 25 Spaces --> 
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
+<div class="space"></div>
 
 </div>
