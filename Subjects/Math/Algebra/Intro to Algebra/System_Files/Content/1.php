@@ -1,26 +1,4 @@
 <link rel="stylesheet" href="./src/layouts.css" type="text/css" />
-<link rel="stylesheet" href="./src/position-text.css" type="text/css" />
-<link rel="stylesheet" href="./src/UI.css" type="text/css" />
-<link rel="stylesheet" href="./index.css" type="text/css" />
-<link rel="stylesheet" href="./background.css" type="text/css" />
-
-<style>
-  body {
-    overflow: none;
-    /* Turns off Scrolling :hidden */
-    color: white;
-    background: #37474F;
-    background: var(--main-color-18);
-  }
-</style>
-
-<div class="bar">
-  <a href="./index.php" class="button small button is-red button-no-animate-mode">Back &#8656;</a>
-  <a href="./index.php" class="button small button is-red button-no-animate-mode">Home &#9750;</a>
-  <a href="./2.php" class="button small button is-red button-no-animate-mode">Next &rArr;</a>
-  <a href="#" class="button"onClick="Calculator=window.open( '../../../../../Smith-Pad/APPS/calculator.php','Calculator', 'width=600,height=1000'); return false;">Launch Calculator</a>
-
-</div>
 <div class="space"></div>
 <div class="space"></div>
 <div class="space"></div>
