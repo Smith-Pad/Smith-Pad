@@ -1,0 +1,8 @@
+[Unit]
+Description=Shell PHP
+
+[Service]
+ExecStart=echo "hello world"
+
+[Install]
+WantedBy=multi-user.target
