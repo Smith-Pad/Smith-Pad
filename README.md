@@ -94,7 +94,7 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > > # Adding to /usr/share/xsessions Automatically
 > 
-> > > > > > > `sh configure.sh`
+> > > `sh configure.sh`
 
 #### Manual: Adding Config Files:
 
