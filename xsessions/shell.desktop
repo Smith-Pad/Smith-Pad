@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Smith-Pad-OS-Shell
 Comment=This session logs you into the Smith-Pad-OS-Shell
-Exec=/usr/bin/electron
+Exec=/usr/bin/electron php -S localhost:3000 --no-sandbox
 Icon=
 Type=Application
