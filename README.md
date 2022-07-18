@@ -92,9 +92,7 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > In-order to get Smith-Pad-OS-Shell running, please follow the following directions provided here.
 
-> > # Adding to /usr/share/xsessions
-> > 
-> > # Automatically
+> > # Adding to /usr/share/xsessions Automatically
 > 
 > > > > > > > `sh configure.sh`
 
