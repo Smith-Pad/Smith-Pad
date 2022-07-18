@@ -2,7 +2,7 @@
 Description=Shell PHP
 
 [Service]
-ExecStart=echo "hello world"
+ExecStart=/bin/bash /usr/bin/shell-php.sh
 
 [Install]
 WantedBy=multi-user.target
