@@ -88,6 +88,16 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 > `sudo pacman -S node.js`
 
+#### Automatic: Adding Config Files:
+
+> In-order to get Smith-Pad-OS-Shell running, please follow the following directions provided here.
+
+> > # Adding to /usr/share/xsessions
+> > 
+> > # Automatically
+> 
+> > > > > > > `sh configure.sh`
+
 #### Manual: Adding Config Files:
 
 > In-order to get Smith-Pad-OS-Shell running, please follow the following directions provided here.
@@ -97,8 +107,6 @@ Smith-Pad-OS-Shell based on various of dependencies
 > > > `cd xsessions`
 > 
 > > > `sudo cp shell.desktop /usr/share/xsessions/`
-
-
 
 ## Running Smith-Pad-OS-Shell Locally
 
