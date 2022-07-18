@@ -106,6 +106,16 @@ Smith-Pad-OS-Shell based on various of dependencies
 > 
 > > > `sudo cp shell.desktop /usr/share/xsessions/`
 
+> > # Adding to /etc/systemd/system
+
+> > > `cd etc/systemd/system`
+> > > 
+> > > `sudo cp shell-php.service /etc/systemd/system`
+> > > 
+> > > `sudo systemctl enable shell-php.service`
+> > > 
+> > > `sudo reboot`
+
 ## Running Smith-Pad-OS-Shell Locally
 
 > Please follow these instructions to successfully run and debug 
