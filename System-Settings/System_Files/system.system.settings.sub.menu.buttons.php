@@ -6,4 +6,4 @@
 
 <a href="./UI-Settings/index.php" class="FOIL-button">UI Settings</a>
 <a href="./System_Files/system.system.settings.open.external.app.1.php" class="FOIL-button">KDE System Settings</a>
-<a href="./System-Information/index.php" class="FOIL-button">System Information</a>
+<a href="#" class="FOIL-button">System Information</a>
