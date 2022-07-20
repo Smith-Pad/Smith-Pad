@@ -10,5 +10,4 @@
 <a href="./Subjects/Subjects.php" class="FOIL-button">Subjects</a>
 <a href="./APPS/APPS-Clock/index.php" class="FOIL-button">Clock Mode</a>
 <a href="./APPS/index.php" class="FOIL-button">Applications</a>
-<a href="../System-Settings/UI-Settings/index.php" class="FOIL-button">UI-Settings</a>
 <a href="../System-Settings/index.php" class="FOIL-button">System Settings</a>
