@@ -44,9 +44,26 @@ function screenResolution() {
         print('</div>');
 }
 
+
+/**
+ * As a result, users may easily switch between dark and bright UI colors.
+ * in the Smith-Pad-OS-Shell environment. 
+ * 
+ */
+
+function uiSettings() {
+        print('<div class="FOIL-Layout">');
+        print('<FOIL-Font-Size-60>UI Settings</FOIL-Font-Size-60>');
+        include('../src/avakasaya/space4.php');
+        print('<a href="UI-Settings/light-mode.php" class="FOIL-button">Light Mode</a>');                // Change to Light Mode
+        print('<a href="UI-Settings/dark-mode.php" class="FOIL-button">Dark Mode</a>');                  // Change to Dark Mode
+        print('</div>');
+}
+
 includeUI();
 banner();
 screenResolution();
+uiSettings();
 
 
 ?>
