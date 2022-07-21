@@ -10,4 +10,5 @@ rm -rf ../../src/config.css
 
 
 ## Copies the Configuration Files to [Smith-Pad-OS-Shell/src/config.css]
-cp ../../Configuration-Files/Night/config.css ../../src/config.css
+cd Day/
+cp config.css
