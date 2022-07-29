@@ -21,24 +21,25 @@ echo """
 @import url('FOIL-UI.css');
 
 body {
-        background: linear-gradient(120deg, rgb(15, 1, 32) 51%, rgb(9, 24, 0) 70%);
+        background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
         color: white;
 }
 
 .FOIL-button {
-        background: linear-gradient(120deg, rgb(15, 1, 32) 51%, rgb(9, 24, 0) 70%);
+        background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
 }
 
 
 .FOIL-button:hover {
-        background: linear-gradient(120deg, rgb(45, 0, 104) 51%, rgba(110, 148, 84, 1) 70%);
+        background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
         box-shadow: red;
         border-style: solid;
+        box-shadow: orange;
         padding: 100px 43px;
 }
 
 .FOIL-button-small {
-        background: linear-gradient(120deg, rgb(15, 1, 32) 51%, rgb(9, 24, 0) 70%);
+        background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
         font-size: 20px;
         border-top: 1px;
         border-color: rgba(110, 148, 84, 1) rgba(134, 44, 255, 1);
@@ -46,19 +47,19 @@ body {
 }
 
 .FOIL-button-small:hover {
-        background: linear-gradient(120deg, rgba(134, 44, 255, 1) 51%, rgba(110, 148, 84, 1) 70%);
+        background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
 }
 
 
 .FOIL-Navigation-Bar {
-        background-color: transparent;
+        background: linear-gradient(circle, rgba(110, 148, 84, 1) 0%, rgba(134, 44, 255, 1) 80%);
         border-radius: 10px;
         color: white;
 }
 
 
 .FOIL-Layout {
-        background-color: transparent;
+        background: linear-gradient(12deg, #0c0d0d, #131314);
         border-radius: 10px;
         color: white;
 }
@@ -83,6 +84,7 @@ FOIL-Font-Size-30 {
 FOIL-Font-Size-60 {
         color: white;
 }
+
 
 
 
