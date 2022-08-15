@@ -19,10 +19,7 @@ body {
 
 .FOIL-button:hover {
         background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
-        box-shadow: red;
         border-style: solid;
-        box-shadow: orange;
-        padding: 100px 43px;
 }
 
 .FOIL-button-small {

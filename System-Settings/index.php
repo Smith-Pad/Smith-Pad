@@ -60,10 +60,40 @@ function uiSettings() {
         print('</div>');
 }
 
+
+/**
+ * As a result, users have the ability to update packages, upgrade packages, 
+ * and so on using the Pacman Package Manager as the backend. However, when 
+ * the user presses the "update", "upgrade", "Clear Package Cache" 
+ * or "List Packages
+ * 
+ * 
+ * It requires an system adminstrator, or supervisor to enter the superuser 
+ * password before proceeding to "update", "upgrade", "Clear Package Cache"
+ * or "List Packages"
+ */
+
+function packageManager() {
+        print('<div class="FOIL-Layout">');
+        print('<FOIL-Font-Size-60>Software Management</FOIL-Font-Size-60>');
+        include('../src/avakasaya/space4.php');
+
+        // Update Packages
+        print('<a href="Package-Management-Scripts/update-packages.php" class="FOIL-Button">Update</a>');
+
+        // Clear Package Cache
+        print('<a href="Package-Management-Scripts/clear-package-cache.php" class="FOIL-button">Clear Package Cache</a>');   
+        
+        // List Packages 
+        print('<a href="Package-Management-Scripts/list-packages.php" class="FOIL-button">List Packages</a>');
+
+        print('</div>');
+}
+
 includeUI();
 banner();
 screenResolution();
 uiSettings();
-
+packageManager();
 
 ?>
