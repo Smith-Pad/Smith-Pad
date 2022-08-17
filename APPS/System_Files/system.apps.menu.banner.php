@@ -12,5 +12,5 @@
 
 	<h1> Applications </h1>
 
-	<a href="../index.php" class="FOIL-button">Home</a>
+	<a href="../../index.php" class="FOIL-button">Home</a>
 </div>
