@@ -37,14 +37,14 @@ body {
 }
 
 
-.FOIL-Navigation-Bar {
+.FOIL-navigation-bar {
         background: linear-gradient(circle, rgba(110, 148, 84, 1) 0%, rgba(134, 44, 255, 1) 80%);
         border-radius: 10px;
         color: white;
 }
 
 
-.FOIL-Layout {
+.FOIL-layout {
         background: linear-gradient(90deg, rgba(135, 44, 255, 0.082) 21%, rgba(110, 148, 84, 0.087) 58%);
         border-radius: 10px;
         color: white;
@@ -62,11 +62,11 @@ pre {
 }
 
 
-FOIL-Font-Size-30 {
+FOIL-font-size-30 {
         color: white;
 }
 
 
-FOIL-Font-Size-60 {
+FOIL-font-size-60 {
         color: white;
 }

@@ -25,12 +25,12 @@ body {
         color: white;
 }
 
-.FOIL-button {
+.FOIL-button-regular {
         background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
 }
 
 
-.FOIL-button:hover {
+.FOIL-button-regular:hover {
         background: linear-gradient(12deg, #0d0e0f, #0d0e0f);
         box-shadow: red;
         border-style: solid;
@@ -51,14 +51,14 @@ body {
 }
 
 
-.FOIL-Navigation-Bar {
+.FOIL-navigation-bar {
         background: linear-gradient(circle, rgba(110, 148, 84, 1) 0%, rgba(134, 44, 255, 1) 80%);
         border-radius: 10px;
         color: white;
 }
 
 
-.FOIL-Layout {
+.FOIL-layout {
         background: linear-gradient(12deg, #0c0d0d, #131314);
         border-radius: 10px;
         color: white;
@@ -76,12 +76,12 @@ pre {
 }
 
 
-FOIL-Font-Size-30 {
+FOIL-font-size-30 {
         color: white;
 }
 
 
-FOIL-Font-Size-60 {
+FOIL-font-size-60 {
         color: white;
 }
 

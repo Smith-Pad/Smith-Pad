@@ -19,7 +19,7 @@ function includeUI() {
 }
 
 function banner() {
-        print('<div class="FOIL-Navigation-Bar">');
+        print('<div class="FOIL-navigation-bar-regular">');
         print('<h1> System-Information </h1>');                                                         // Banner Name
         print('<a href="../index.php" class="FOIL-button-small">Back</a>');                             // Go back to the System-Settings Menu
         print('</div>');
@@ -31,7 +31,7 @@ function banner() {
 
 function storageDevices() {
 
-        print('<div class="FOIL-Layout">');
+        print('<div class="FOIL-layout-regular">');
         print('<FOIL-Font-Size-60><pre>Storage Devices</pre></FOIL-Font-Size-60>');
         $lsblk = shell_exec('lsblk');
         print("<pre>$lsblk </pre>");
@@ -43,7 +43,7 @@ function storageDevices() {
 
 function listNetwork() {
 
-        print('<div class="FOIL-Layout">');
+        print('<div class="FOIL-layout-regular">');
         print('<FOIL-Font-Size-60><pre>Network List</pre></FOIL-Font-Size-60>');
         $nmcli = shell_exec('nmcli device status');
         print("<pre>$nmcli </pre>");
@@ -54,7 +54,7 @@ function listNetwork() {
 // This uses the uname -a command
 
 function kernelInfo() {
-        print('<div class="FOIL-Layout"><FOIL-Font-Size-60>Kernel Information</FOIL-Font-Size-60>');
+        print('<div class="FOIL-layout-regular"><FOIL-Font-Size-60>Kernel Information</FOIL-Font-Size-60>');
         $kernelInfo = shell_exec('uname -a');
         print("<pre>$kernelInfo </pre>");
         print('</div>');
@@ -65,7 +65,7 @@ function kernelInfo() {
 
 
 function upTime() {
-        print('<div class="FOIL-Layout"><FOIL-Font-Size-60>Up-Time</FOIL-Font-Size-60>');
+        print('<div class="FOIL-layout-regular"><FOIL-Font-Size-60>Up-Time</FOIL-Font-Size-60>');
         $upTime = shell_exec('uptime');
         print("<pre>$upTime </pre>");
         print("</div>");
