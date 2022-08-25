@@ -12,7 +12,12 @@ Smith-Pad-OS-Shell based on various of dependencies
 
 ## Dependencies
 
-> Smith-Pad-OS or Arch-Linux based distributions
+> Pacman Package Manager 
+
+> xrandr
+
+> brightnessctl 
+
 
 ## Requirements
 
