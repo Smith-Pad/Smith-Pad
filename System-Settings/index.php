@@ -28,19 +28,36 @@ function banner() {
 
 /**
  * This gives the user the option to customize the screen resolution to their liking.
- * This function is based on the `xrandr` tool.
- *
+ * This function is based on the `xrandr` tool. It also gives the user the option
+ * to set the display brightness. 
  */
 
-function screenResolution() {
+function displayOptions() {
         print('<div class="FOIL-layout-regular">');
-        print('<FOIL-Font-Size-60>Screen Resolution</FOIL-Font-Size-60>');
+        print('<FOIL-Font-Size-60>Display Options</FOIL-Font-Size-60>');
         include('../src/avakasaya/space4.php');
         print('<FOIL-Font-Size-30>Rotation</FOIL-Font-Size-30>');
+        include('../src/avakasaya/space2.php');
         print('<a href="Screen-Resolution/normal.php" class="FOIL-button-regular">Normal</a>');                 // Make the screen normal
         print('<a href="Screen-Resolution/inverted.php" class="FOIL-button-regular">Flipped</a>');              // Make the screen flipped
         print('<a href="Screen-Resolution/left.php" class="FOIL-button-regular">Portrait (Left)</a>');          // Make the screen portrait
-        print('<a href="Screen-Resolution/right.php" class="FOIL-button-regular">Portrait (Right)</a>');        // Make the screen portrait
+        print('<a href="Screen-Resolution/right.php" class="FOIL-button-regular">Portrait (Right)</a>');        // Make the screen portrait        
+        include('../src/avakasaya/space4.php');
+        print('<FOIL-Font-Size-30>Display Brightness</FOIL-Font-Size-30>');
+        include('../src/avakasaya/space2.php');
+        print('<a href="Display-Brightness/10-percent.php" class="FOIL-button-regular">10</a>');		// Set Display Brightness to 10%
+        print('<a href="Display-Brightness/20-percent.php" class="FOIL-button-regular">20</a>');		// Set Display Brightness to 20%
+        print('<a href="Display-Brightness/30-percent.php" class="FOIL-button-regular">30</a>');		// Set Display Brightness to 30%
+        include('../src/avakasaya/space2.php');
+        print('<a href="Display-Brightness/40-percent.php" class="FOIL-button-regular">40</a>');		// Set Display Brightness to 40%
+        print('<a href="Display-Brightness/50-percent.php" class="FOIL-button-regular">50</a>');		// Set Display Brightness to 50%
+        print('<a href="Display-Brightness/60-percent.php" class="FOIL-button-regular">60</a>');		// Set Display Brightness to 60%
+        include('../src/avakasaya/space2.php');
+        print('<a href="Display-Brightness/70-percent.php" class="FOIL-button-regular">70</a>');		// Set Display Brightness to 70%
+        print('<a href="Display-Brightness/80-percent.php" class="FOIL-button-regular">80</a>');		// Set Display Brightness to 80%
+        print('<a href="Display-Brightness/90-percent.php" class="FOIL-button-regular">90</a>');		// Set Display Brightness to 90%
+        include('../src/avakasaya/space2.php');
+        print('<a href="Display-Brightness/100-percent.php" class="FOIL-button-regular">100</a>');		// Set Display Brightness to 100%
         print('</div>');
 }
 
@@ -92,7 +109,7 @@ function packageManager() {
 
 includeUI();
 banner();
-screenResolution();
+displayOptions();
 uiSettings();
 packageManager();
 
