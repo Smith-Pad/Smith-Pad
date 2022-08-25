@@ -15,9 +15,12 @@ Smith-Pad-OS-Shell based on various of dependencies
 > Pacman Package Manager 
 
 > xrandr
+> 
+> > https://github.com/Hummer12007/brightnessctl
 
 > brightnessctl 
-
+> 
+> > https://www.x.org/wiki/Projects/XRandR/
 
 ## Requirements
 
