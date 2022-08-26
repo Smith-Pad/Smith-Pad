@@ -88,6 +88,9 @@ function uiSettings() {
  * It requires an system adminstrator, or supervisor to enter the superuser 
  * password before proceeding to "update", "upgrade", "Clear Package Cache"
  * or "List Packages"
+ * 
+ * It will also allow users to update the Smith-Pad-OS-Web-Interface. 
+ * In the backend, it makes use of the [git pull] command. 
  */
 
 function packageManager() {
@@ -103,6 +106,11 @@ function packageManager() {
         
         // List Packages 
         print('<a href="Package-Management-Scripts/list-packages.php" class="FOIL-button-regular">List Packages</a>');
+
+
+        // Update Smith-Pad Web Interface
+        print('<a href="Update-Interface/index.php" class="FOIL-button-regular">Update Shell</a>');
+
 
         print('</div>');
 }

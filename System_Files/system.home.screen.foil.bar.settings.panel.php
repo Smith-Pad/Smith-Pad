@@ -20,7 +20,7 @@
 
                     	<h4> Software Update </h4> 
 
-                    	<a href="./Update-Tool/index.php" class="button-no-animate-mode button curve button small button orange">Update Smith Pad</a>
+                    	<a href="../System-Settings/Update-Interface/index.php" class="button-no-animate-mode button curve button small button orange">Update Smith Pad</a>
                 
                     	<h4>Display Brightness</h4>
                     	<?php include 'src/avakasaya/space2.php'?>
