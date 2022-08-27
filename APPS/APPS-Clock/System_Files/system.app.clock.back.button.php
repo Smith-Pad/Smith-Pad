@@ -11,7 +11,7 @@
 
 
 
-<a href = "#" class="button-no-animate-mode">BACK</a>
+<a href = "../../../index.php" class="button-no-animate-mode">BACK</a>
 </div>
 <h1> 
 <style> 
