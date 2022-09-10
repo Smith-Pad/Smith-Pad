@@ -1,4 +1,4 @@
-<div class="FOIL-Navigation-Bar">
+<div class="FOIL-navigation-bar">
   <a href="#" class="button small button is-red button-no-animate-mode">Back &#8656;</a>
   <a href="#" class="button small button is-red button-no-animate-mode">Home &#9750;</a>
   <a href="#" class="button small button is-red button-no-animate-mode">Next &rArr;</a>
