@@ -4,4 +4,4 @@
 
 > This is used for re-writing the new topics system in PHP for Subjects. 
 
-> This branch will be removed anytime. 
+> This branch will be removed anytime. And may be merged into a new branch
