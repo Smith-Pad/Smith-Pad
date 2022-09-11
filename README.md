@@ -7,5 +7,3 @@
 ### What this is used for?
 
 - [ ]  Planning New Lesson Materials
-
-- [ ] 
