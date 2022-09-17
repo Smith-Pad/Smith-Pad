@@ -1,5 +1,7 @@
 # Pay-Checkout
 
+# TODO: 
+> Add a character name to the lesson???
 
 #### Introduction: 
 
@@ -13,3 +15,6 @@
 
 
 
+# First Page: 
+
+> 
