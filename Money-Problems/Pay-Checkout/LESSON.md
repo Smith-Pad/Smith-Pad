@@ -17,4 +17,12 @@
 
 # First Page: 
 
-> 
+> Welcome to the grocery store. My name is `character???`. And I am going to show
+> you the way to pay at the checkout. Are you ready to do this? 
+
+
+
+####### NOTE: 
+
+> Add button: I am ready = `go to next page`
+> Add button: Not Yet = `go back to index`
