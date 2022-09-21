@@ -1,10 +1,10 @@
-# new-subjects-topic-interface
+# Pay-Checkout-Interface
 
 
 
 #### Introduction
 
-> The new subjects topic interface for new lessons.
+> Lesson Interface   
 
 #### Requirements
 
