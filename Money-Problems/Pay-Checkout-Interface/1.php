@@ -59,19 +59,15 @@
 	function content() {
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>');
 		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<center><FOIL-font-size-51> Welcome to the Grocery Store. </FOIL-font-size-51>');
+		print('<center> <b> Welcome to this interactive lesson where you will explore a grocery store and learn how to use the pay checkout </b></center>');
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<center><FOIL-font-size-25>My name is (character), and I am going to show you the way to pay at the checkout </FOIL-font-size-25></center> ');
+		print('<p> <center> Ready to Continue?  </p> </h1>');
 		print('</div>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
-		print('</div>');
+		print('<center><a href="#" class="FOIL-button-regular-no-shadow">Yes</a>
+		<a href="#" class="FOIL-button-regular-no-shadow">No</a></center>');
 		print('</div>');
 		print('</div>');
 	}
