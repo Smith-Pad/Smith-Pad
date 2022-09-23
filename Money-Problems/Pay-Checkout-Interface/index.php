@@ -26,7 +26,7 @@
 
 	function banner() {
 		print('<div class="FOIL-navigation-bar-regular">');
-		print('<h1> Name</h1>');
+		print('<h1> Pay Checkout</h1>');
 	}
 
 
@@ -61,9 +61,9 @@
 	function content() {
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<h1> <center> Welcome to the Lesson </center> </h1>');
+		print('<FOIL-font-size-31> <center> Welcome to the Lesson </center> </FOIL-font-size-31>');
 		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<center> <b> Introduction here </b></center>');
+		print('<center> <b> Welcome to this interactive lesson where you will explore a grocery store and learn how to use the pay checkout </b></center>');
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<p> <center> Ready to Continue?  </p> </h1>');

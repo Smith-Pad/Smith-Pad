@@ -3,10 +3,10 @@
 
 	/**
 	 *	This is where you are able to configure the
-	 * 	font styles of your choice. 
+	 * 	font styles of your choice.
 	 *
-	 *	Please see the FOIL-UI Documentation for more 
-	 * 	information. 
+	 *	Please see the FOIL-UI Documentation for more
+	 * 	information.
 	 *
 	 */
 
@@ -17,21 +17,21 @@
 
         /**
          *	This is where the banner is located. In other
-         *	words, the banner name. 
-         *	
-         * 
+         *	words, the banner name.
+         *
+         *
          */
 
 	function banner() {
 		print('<div class="FOIL-navigation-bar-regular">');
-		print('<h1> Name</h1>');
+		print('<h1> Pay Checkout</h1>');
 	}
 
 
 	/**
-	 *	This is where the navigation buttons are located. 
-	 *	
-	 *	For example: 
+	 *	This is where the navigation buttons are located.
+	 *
+	 *	For example:
 	 * 	if [index.php] then [index.php] to [1.php].
 	 * 	if [1.php] the [1.php] to [2.php]
 	 *
@@ -47,17 +47,33 @@
 
 
 	/**
-	 *	This is where the content is located. 
+	 *	This is where the content is located.
 	 *
 	 *
-	 *	
-	 *	Put anything that is necessary 
+	 *
+	 *	Put anything that is necessary
 	 *
 	 *
 	 */
 
 	function content() {
 		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<center><FOIL-font-size-51> Welcome to the Grocery Store. </FOIL-font-size-51>');
+		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<center><FOIL-font-size-25>My name is (character), and I am going to show you the way to pay at the checkout </FOIL-font-size-25></center> ');
+		print('</div>');
+		print('</div>');
+		print('</div>');
+		print('</div>');
+		print('</div>');
+		print('</div>');
+		print('</div>');
+		print('</div>');
 	}
 
 	beginFontStyles();
