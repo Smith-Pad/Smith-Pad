@@ -1,8 +1,24 @@
-# Money-Problems
-
-> This folder contains lesson plans allowing students to learn how to manage money. 
+# new-subjects-topic-interface
 
 
-#### List of Contents: 
 
-> Later on...
+#### Introduction
+
+> The new subjects topic interface for new lessons.
+
+#### Requirements
+
+- [ ] Arch Linux
+- [ ] Git
+- [ ] Python
+- [ ] PHP
+
+
+
+#### Installation				
+        
+`sudo pacman -S --noconfirm git`
+
+`sudo pacman -S --noconfirm python`
+
+`sudo pacman -S --noconfirm php`
