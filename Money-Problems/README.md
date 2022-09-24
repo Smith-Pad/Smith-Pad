@@ -1,10 +1,10 @@
-# new-subjects-topic-interface
+# Money-Problems
 
 
 
 #### Introduction
 
-> The new subjects topic interface for new lessons.
+> Later on...
 
 #### Requirements
 
@@ -16,7 +16,7 @@
 
 
 #### Installation				
-        
+
 `sudo pacman -S --noconfirm git`
 
 `sudo pacman -S --noconfirm python`
