@@ -6,9 +6,11 @@
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-.character-photo-1 {
-        padding: 10px;
-        background-color: black;
+.character-photo {
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        background-color: white;
         color: white;
 }
 
