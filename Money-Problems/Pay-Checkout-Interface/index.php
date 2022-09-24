@@ -64,6 +64,7 @@
 		print('<FOIL-font-size-31> <center> Welcome to the Lesson </center> </FOIL-font-size-31>');
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<center> <b> Welcome to this interactive lesson where you will explore a grocery store and learn how to use the pay checkout </b></center>');
+
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<div class="FOIL-layout-regular-no-shadow">');
 		print('<p> <center> Ready to Continue?  </p> </h1>');

@@ -36,7 +36,7 @@
 	 * 	if [1.php] the [1.php] to [2.php]
 	 *
 	 */
-
+        
 	function naviButtons() {
 		print('<hr>');
 		print('<a href="index.php" class="FOIL-button-small-no-shadow">Home</a>');
@@ -57,19 +57,10 @@
 	 */
 
 	function content() {
-		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<div class="FOIL-layout-regular-no-shadow">');
+		print('<div class="question-banner">');
+                print('<div class="character-photo">');
 		print('<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>');
-		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<center> <b> Welcome to this interactive lesson where you will explore a grocery store and learn how to use the pay checkout </b></center>');
-		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<div class="FOIL-layout-regular-no-shadow">');
-		print('<p> <center> Ready to Continue?  </p> </h1>');
-		print('</div>');
-		print('<center><a href="#" class="FOIL-button-regular-no-shadow">Yes</a>
-		<a href="#" class="FOIL-button-regular-no-shadow">No</a></center>');
-		print('</div>');
-		print('</div>');
+		print('<center> <b> Senal is buying 2 mixed vegetables to make his rice and curry. </b></center>');
 	}
 
 	beginFontStyles();
