@@ -2,7 +2,7 @@
 
 > Learning materials is a branch.
 
-> Learning materials are written in Markdown. 
+> Learning materials contain markdown files and the Subjects Topic Interface.  
 
 ### What this is used for?
 
