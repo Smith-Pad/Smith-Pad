@@ -11,7 +11,6 @@
 }
 
 .question-banner {
-	padding: 86px 320px;
         background-color: #250000;
         color:white;
 }
@@ -20,7 +19,7 @@
 
 table {
 	width:93%;
-	border:1px solid red;
+	border:1px solid rgb(71, 33, 33);
 	border-collapse:collapse;
 	padding:6px;
 	transition-duration: 1s;
@@ -38,7 +37,7 @@ th {
 * HOVER
 *******************************/
 table th:hover {
-	background-color: red;
+	background-color: rgb(90, 34, 34);
 	padding: 60;
 }
 
@@ -48,9 +47,10 @@ table th:hover {
 table td {
 	border:1px solid #b3adad;
 	text-align:center;
-	padding:6px;
+	padding:3px;
 	background: transparent;
-	color: #313030;
+        border-radius: 10px;
+	color: #ffffff;
 	transition-duration: 1s;
 }
 

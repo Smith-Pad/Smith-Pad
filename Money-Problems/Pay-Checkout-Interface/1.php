@@ -64,6 +64,8 @@
 			<div class="question-banner">
 			<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>
 			<center> <b> Senal is buying 2 mixed vegetables to make his rice and curry. </b></center>
+			<center> <b> There are both $55.00 </b></center>
+			<center> <b> How much is the total? </b></center>
 			</div>
 		');
 
@@ -74,18 +76,20 @@
 				<table>
 					<thead>
 						<tr>
-							<th>Header 1</th>
-							<th>Header 2</th>
+							<th>Food</th>
+							<th>Price</th>
 						</tr>
 					</thead>
-					<tbody>
+                                        <tbody> 
+					
 						<tr>
-							<td>dhfjdf</td>
-							<td>&nbsp;</td>
+							<td>&nbsp; Mixed Vegetables</td>
+							<td>&nbsp; $55.00</td>
 						</tr>
+
 						<tr>
-							<td>&nbsp;</td>
-							<td>&nbsp;</td>
+                                                        <td>&nbsp; Mixed Vegetables</td>
+                                                        <td>&nbsp; $55.00</td>
 						</tr>
 					</tbody>
 				</table>
