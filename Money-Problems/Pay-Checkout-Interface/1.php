@@ -36,7 +36,7 @@
 	 * 	if [1.php] the [1.php] to [2.php]
 	 *
 	 */
-        
+
 	function naviButtons() {
 		print('<hr>');
 		print('<a href="index.php" class="FOIL-button-small-no-shadow">Home</a>');
@@ -57,8 +57,8 @@
 	 */
 
 	function content() {
+                // print('<div class="character-photo">');
 		print('<div class="question-banner">');
-                print('<div class="character-photo">');
 		print('<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>');
 		print('<center> <b> Senal is buying 2 mixed vegetables to make his rice and curry. </b></center>');
 	}

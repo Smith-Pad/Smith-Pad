@@ -1,17 +1,13 @@
 /**
  *		custom.css
- *	This is where you put the animations and effects into it.  
- *      
+ *	This is where you put the animations and effects into it.
+ *
  *
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .character-photo {
-        align-items: center;
-        width: 90px;
-        height: 90px;
-        background-color: white;
-        color: white;
+	background-image: url('src/character-sprites/character-one.png');
 }
 
 .question-banner {

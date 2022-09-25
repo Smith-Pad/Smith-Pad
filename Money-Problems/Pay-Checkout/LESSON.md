@@ -17,8 +17,15 @@
 
 # First Page:
 
-> Welcome to the grocery store. My name is `character???`. And I am going to show
+> Welcome to the grocery store. My name is `character???`. And I am going to show 
 > you the way to pay at the checkout. Are you ready to do this?
+
+
+
+
+# Second Page: 
+
+> 
 
 
 
