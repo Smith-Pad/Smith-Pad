@@ -5,10 +5,6 @@
  *
  *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-body {
-	color: white;
-}
-
 
 .character-photo {
 	background-image: url('src/character-sprites/character-one.png');
@@ -20,6 +16,55 @@ body {
         color:white;
 }
 
-.table-banner {
-	shape-inside: circle(200,200);
+
+
+table {
+	width:93%;
+	border:1px solid red;
+	border-collapse:collapse;
+	padding:6px;
+	transition-duration: 1s;
+}
+
+
+/********************************
+* -
+*******************************/
+th {
+	transition-duration: 1s;
+}
+
+/********************************
+* HOVER
+*******************************/
+table th:hover {
+	background-color: red;
+	padding: 60;
+}
+
+/********************************
+* -
+*******************************/
+table td {
+	border:1px solid #b3adad;
+	text-align:center;
+	padding:6px;
+	background: #ffffff;
+	color: #313030;
+	transition-duration: 1s;
+}
+
+/********************************
+* HOVER
+*******************************/
+table td:hover {
+	padding: 60;
+	font-size: 30px;
+}
+
+
+
+body {
+	color: white;
+	transform: perspective(auto);
 }

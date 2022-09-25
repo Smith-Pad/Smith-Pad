@@ -67,20 +67,27 @@
 			</div>
 		');
 
-
 		// Develop a table
 		print('
 			<div class="FOIL-layout-regular">
 			<center>
 				<table>
-					<tr>
-						<FOIL-font-size-31>Hello world</FOIL-font-size-31>
-					</tr>
-					<tr>
-						  <td>16</td>
-						  <td>14</td>
-						  <td>10</td>
-					</tr>
+					<thead>
+						<tr>
+							<th>Header 1</th>
+							<th>Header 2</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>dhfjdf</td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+						</tr>
+					</tbody>
 				</table>
 			</center>
 		');
