@@ -58,9 +58,32 @@
 
 	function content() {
                 // print('<div class="character-photo">');
-		print('<div class="question-banner">');
-		print('<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>');
-		print('<center> <b> Senal is buying 2 mixed vegetables to make his rice and curry. </b></center>');
+
+		// Question Banner
+		print('
+			<div class="question-banner">
+			<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>
+			<center> <b> Senal is buying 2 mixed vegetables to make his rice and curry. </b></center>
+			</div>
+		');
+
+
+		// Develop a table
+		print('
+			<div class="FOIL-layout-regular">
+			<center>
+				<table>
+					<tr>
+						<FOIL-font-size-31>Hello world</FOIL-font-size-31>
+					</tr>
+					<tr>
+						  <td>16</td>
+						  <td>14</td>
+						  <td>10</td>
+					</tr>
+				</table>
+			</center>
+		');
 	}
 
 	beginFontStyles();
