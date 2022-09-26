@@ -40,8 +40,8 @@
 	function naviButtons() {
 		print('<hr>');
 		print('<a href="index.php" class="FOIL-button-small-no-shadow">Home</a>');
-		print('<a href="1.php" class="FOIL-button-small-no-shadow">Previous</a>');
-		print('<a href="3.php" class="FOIL-button-small-no-shadow">Next</a>');
+		print('<a href="2.php" class="FOIL-button-small-no-shadow">Previous</a>');
+		print('<a href="4.php" class="FOIL-button-small-no-shadow">Next</a>');
 		print('</div>');
 	}
 
