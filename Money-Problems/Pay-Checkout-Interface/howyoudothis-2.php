@@ -56,10 +56,10 @@
 
 	function content() {
   		print('<div class="FOIL-layout-regular-no-shadow">');
-  		print('<h1> how do you do it?</h1>');
   		print('<div class="FOIL-layout-regular-no-shadow">');
-  		print('<FOIL-font-size-71>W</FOIL-font-size-71>hen you are in a grocery store, you know, buying some ingredients for your ');  		
-  		print('wonderful and glory of rice and curry. ');
+  		print('<h1> how do you do it?</h1>');
+  		include('src/avakasaya/space9.php');
+		include('senal.senal');
 	}
 
 	beginFontStyles();
