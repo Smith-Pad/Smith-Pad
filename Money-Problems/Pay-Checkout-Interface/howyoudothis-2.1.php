@@ -40,6 +40,7 @@
 	function naviButtons() {
 		print('<hr>');
 		print('<a href="2.php" class="FOIL-button-small-no-shadow">Close</a>');
+		print('<a href="howyoudothis-2.php" class="FOIL-button-small-no-shadow">Back</a>');
 		print('</div>');
 	}
 
@@ -59,10 +60,10 @@
   		print('<div class="FOIL-layout-regular-no-shadow">');
   		print('<h1> how do you do it?</h1>');
   		include('src/avakasaya/space9.php');
-		include('Content/How-do-you-do-this/howyoudothis-2.content');
+		include('Content/How-do-you-do-this/howyoudothis-2.1.content');
                 // If the user presses this button, it will allow the user the ability to learn 
                 // how to figure out the total amount of grocceries in their shopping cart
-                print('<a href="howyoudothis-2.1.php" class="FOIL-button-regular-no-shadow">How you do do it? </a>');
+                print('<a href="How-do-you-do-this/howyoudothis-2.1.php" class="FOIL-button-regular-no-shadow">How you do do it? </a>');
 	}
 
 	beginFontStyles();
