@@ -40,9 +40,9 @@
 	function naviButtons() {
 		print('<hr>');
 		print('<a href="index.php" class="FOIL-button-small-no-shadow">Home</a>');
-		print('<a href="2.php" class="FOIL-button-small-no-shadow">Previous</a>');
-		print('<a href="howyoudothis-3.php" class="FOIL-button-small-no-shadow">How do you do it?</a>');
-		print('<a href="4.php" class="FOIL-button-small-no-shadow">Next</a>');
+		print('<a href="1.php" class="FOIL-button-small-no-shadow">Previous</a>');
+		print('<a href="howyoudothis-2.php" class="FOIL-button-small-no-shadow">How do you do it?</a>');
+		print('<a href="3.php" class="FOIL-button-small-no-shadow">Next</a>');
 		print('</div>');
 	}
 
@@ -64,9 +64,9 @@
 		print('
 			<div class="question-banner">
 			<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>
-			<center> <b>  </b></center>
-			<center> <b>  </b></center>
-			<center> <b>  </b></center>
+			<center> <b> Question here </b></center>
+			<center> <b> Question here </b></center>
+			<center> <b> Question here </b></center>
 			</div>
 		');
 
@@ -77,20 +77,20 @@
 				<table>
 					<thead>
 						<tr>
-							<th></th>
-							<th></th>
+							<th>Food</th>
+							<th>Price</th>
 						</tr>
 					</thead>
                                         <tbody> 
 					
 						<tr>
-							<td>&nbsp; </td>
-							<td>&nbsp; </td>
+							<td>&nbsp; Mixed Vegetables</td>
+							<td>&nbsp; $55.00</td>
 						</tr>
 
 						<tr>
-                                                        <td>&nbsp; </td>
-                                                        <td>&nbsp; </td>
+                                                        <td>&nbsp; Mixed Vegetables</td>
+                                                        <td>&nbsp; $55.00</td>
 						</tr>
 					</tbody>
 				</table>

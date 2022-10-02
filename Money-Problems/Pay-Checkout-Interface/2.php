@@ -40,9 +40,9 @@
 	function naviButtons() {
 		print('<hr>');
 		print('<a href="index.php" class="FOIL-button-small-no-shadow">Home</a>');
-		print('<a href="1.php" class="FOIL-button-small-no-shadow">Previous</a>');
-		print('<a href="howyoudothis-2.php" class="FOIL-button-small-no-shadow">How do you do it?</a>');
-		print('<a href="3.php" class="FOIL-button-small-no-shadow">Next</a>');
+		print('<a href="2.php" class="FOIL-button-small-no-shadow">Previous</a>');
+		print('<a href="howyoudothis-3.php" class="FOIL-button-small-no-shadow">How do you do it?</a>');
+		print('<a href="4.php" class="FOIL-button-small-no-shadow">Next</a>');
 		print('</div>');
 	}
 
@@ -64,9 +64,9 @@
 		print('
 			<div class="question-banner">
 			<FOIL-font-size-31> <center> CHARACTER PHOTO </center> </FOIL-font-size-31>
-			<center> <b> Senal is buying 2 mixed vegetables to make his rice and curry. </b></center>
-			<center> <b> There are both $55.00 </b></center>
-			<center> <b> How much is the total? </b></center>
+			<center> <b>  </b></center>
+			<center> <b>  </b></center>
+			<center> <b>  </b></center>
 			</div>
 		');
 
@@ -77,20 +77,20 @@
 				<table>
 					<thead>
 						<tr>
-							<th>Food</th>
-							<th>Price</th>
+							<th></th>
+							<th></th>
 						</tr>
 					</thead>
                                         <tbody> 
 					
 						<tr>
-							<td>&nbsp; Mixed Vegetables</td>
-							<td>&nbsp; $55.00</td>
+							<td>&nbsp; </td>
+							<td>&nbsp; </td>
 						</tr>
 
 						<tr>
-                                                        <td>&nbsp; Mixed Vegetables</td>
-                                                        <td>&nbsp; $55.00</td>
+                                                        <td>&nbsp; </td>
+                                                        <td>&nbsp; </td>
 						</tr>
 					</tbody>
 				</table>

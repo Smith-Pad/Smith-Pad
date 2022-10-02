@@ -25,6 +25,8 @@
 
 # Second Page: 
 
+> What is pay-checkout? 
+
 > 
 
 
