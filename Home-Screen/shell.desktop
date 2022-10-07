@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Shell
+Comment=Smith-Pad-OS-Shell
+Exec=chromium --kiosk http://localhost:3000
+TryExec=php -S http://localhost:3000
+Type=Application
+DesktopNames=Shell
