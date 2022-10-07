@@ -1,8 +1,0 @@
-[Unit]
-Description=Enables PHP every time. 
-
-[Service]
-ExecStart=/bin/bash /usr/sbin/php-shell.sh
-
-[Install]
-WantedBy=multi-user.target
