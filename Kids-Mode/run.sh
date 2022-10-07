@@ -7,13 +7,12 @@
 clear
 echo """
 =====================================
-Choose Options
+Choose Options [ k I d S]
 =====================================
 1) Home-Screen
 2) Settings-Menu
 3) Subjects Menu 
-4) Kids Mode
-8) Exit
+4) Normal Mode
 
 """
 while :
@@ -64,12 +63,14 @@ while :
                 	"""
                 	php -S localhost:3000
                 	sh ../edit.sh
-
-                        ;;
-
-                4) 
-                	sh Kids-Mode/run.sh
                 	;;
-                	
+ 
+ 
+                4) 
+                        cd ../../
+                        sh run.sh
+                	;;
+
+
 esac
 done
