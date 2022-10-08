@@ -20,10 +20,10 @@ function content() {
         print('<script src="src/FOIL-time.js"></script>');
         print('<center><FOIL-font-size-40> Subjects Menu </FOIL-font-size-40></center>');
         print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Home</a>');
-        print('<a href="Math/index.php" class="FOIL-button-regular-no-shadow">Math</a>');
-        print('<a href="Reading/index.php" class="FOIL-button-regular-no-shadow">Reading</a>');
-        print('<a href="Daily-Skills/index.php" class="FOIL-button-regular-no-shadow">Daily Skills</a>');
-        print('<a href="Work-Skills/index.php" class="FOIL-button-regular-no-shadow">Work Skills</a>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow">Coding</a>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow">Science</a>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow">Math</a>');
+        print('<a href="#" class="FOIL-button-regular-no-shadow">Reading</a>');
 }
 content();
 ?>
