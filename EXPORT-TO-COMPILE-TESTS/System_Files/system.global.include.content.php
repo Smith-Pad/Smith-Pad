@@ -22,7 +22,7 @@ function content() {
         print('<a href="#" class="FOIL-button-regular-no-shadow">Schedule Display</a>');
         print('<a href="#" class="FOIL-button-regular-no-shadow">Math Operations</a>');
         print('<a href="Subjects/index.php" class="FOIL-button-regular-no-shadow">Subjects</a>');
-        print('<a href="Applications/Clock/index.php" class="FOIL-button-regular-no-shadow">Clock Mode</a>');
+        print('<a href="APPS/Clock-Mode/index.php" class="FOIL-button-regular-no-shadow">Clock Mode</a>');
 }
 content();
 ?>
