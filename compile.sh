@@ -13,7 +13,7 @@ function enableSuperUser() {
 ## Make a function to create a directory in 
 function createDirectory() {
         ## Go to the /var/ directory
-        cd /var/
+        cd /var
 
         ## ------------HOME SCREEN --------------------
         ##| This will create directories first in the 
