@@ -1,6 +1,6 @@
 /************************************************************************
  *      config.css
- *
+ *      Light Mode
  ************************************************************************/
  @import url('../../FOIL-UI.css');
 
@@ -98,7 +98,6 @@
  
  }
 
-
 /**
  *      keyframes
  *
@@ -119,4 +118,72 @@
                 color: white;
                 padding: 40px 40px 40px 40px;
         }
+ }
+
+
+
+
+
+/* * 
+ *      @media feature. 
+ *      If the Smith-Pad-OS-Shell is being used on a smaller device like a 
+ *      smart phone like screen, then it will enhance the interface to be 
+ *      compatible with the smaller devices. 
+ *     
+ */
+
+
+ /* Smart Phone */
+ @media only screen and (max-width: 600px) {
+        /** 
+         *      ----Components----
+         *      * [h1]
+         *      * [.FOIL-navigation-bar-regular]
+         *      * [.FOIL-button-regular-no-shadow]
+         *      * [FOIL-font-size-60]
+         *      * [FOIL-font-size-40]
+         *      * 
+         *
+         *      -----Description----
+         *      Shrink the h1 font size to 19 pixels. 
+         *      Shrink the navigation bar regular 
+         *      Shrink the font size to 40px
+         *      Shrink the font-size to 20px
+         */
+        h1 {
+                font-size: 19px;
+        }
+
+        .FOIL-navigation-bar-regular {
+                background-color: rgb(25, 25, 25);
+                padding: 20px 20px 20px 20px;
+                display: grid;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                color: white;
+         }
+
+         .FOIL-button-regular-no-shadow {
+                font-size: auto;
+         }
+
+         FOIL-font-size-60 {
+                font-size: 40px;
+         }
+
+         FOIL-font-size-40 {
+                font-size: 20px;
+         }
+ }
+
+
+/** 
+ *      @media feature. 
+ *      If the Smith-Pad-OS-Shell is being used on a bigger device like 
+ *      like on a TV like bigger display, then it will enhance the 
+ *      interface to be compatible with the smaller devices. 
+ *
+ */
+ @media only screen and (max-width: 600px) {
+        
  }
