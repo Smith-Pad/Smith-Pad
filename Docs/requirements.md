@@ -17,8 +17,13 @@
 # How to install the requirements: 
 
 > `sudo pacman -S git`
+
 > `sudo pacman -S php`
+
 > `sudo pacman -S php`
+
 > `sudo pacman -S python`
+
 > `sudo pacman -S xorg`
+
 > `sudo pacman -S xorg-xinit`
