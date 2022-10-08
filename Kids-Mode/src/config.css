@@ -1,6 +1,11 @@
 /************************************************************************
  *      config.css
  *      Light Mode
+ *
+ *
+ *
+ *
+ *     This version of the config file for the Kids Mode Feature. 
  ************************************************************************/
  @import url('../../FOIL-UI.css');
 
@@ -9,7 +14,7 @@
  }
 
  .FOIL-navigation-bar-regular {
-        background-color: rgb(25, 25, 25);
+        /* background-color: rgb(25, 25, 25); */
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         color: white;
@@ -155,7 +160,8 @@
         }
 
         .FOIL-navigation-bar-regular {
-                background-color: rgb(25, 25, 25);
+                /* background-color: rgb(25, 25, 25); */
+                background-color: rgb(18, 71, 98);
                 padding: 20px 20px 20px 20px;
                 display: grid;
                 border-bottom-left-radius: 10px;
