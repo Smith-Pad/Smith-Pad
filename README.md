@@ -80,7 +80,7 @@
 
 `cd xsessions`
 
-`cp xsessions /usr/share/xsessions`
+`cp shell.desktop /usr/share/xsessions`
 
 ###### Example Display Managers:
 
