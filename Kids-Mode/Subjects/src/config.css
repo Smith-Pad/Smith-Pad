@@ -5,7 +5,7 @@
  @import url('../../FOIL-UI.css');
 
  body{
-        background-color:rgb(33, 63, 171);
+        background-color:rgb(77, 29, 12);
  }
 
  .FOIL-navigation-bar-regular {
@@ -78,7 +78,7 @@
 }
  
  .FOIL-layout-regular-no-shadow {
-         background-color:rgb(33, 63, 171);
+         background-color:rgb(30, 38, 69);
          border-radius: 10px 10px 20px 30px;
          color: white;
          padding: 40px 40px 40px 40px;
