@@ -46,15 +46,13 @@
 
 `sudo pacman -S xorg-xinit`
 
-
-
 ### First you have to copy the systemd daemon. This allows systemd to automatically start the php service every time the system boots.
 
 `cd systemd/system`
 
 `cp shell-php.service /etc/systemd/system`
 
-
+ `sudo cp shell-php.service /etc/systemd/system`
 
 ### Then you have to copy the shell script. This allows systemd to call the script to automatically start the php service every time the system boots.
 
@@ -62,7 +60,7 @@
 
 `cp shell-php.sh /usr/bin`
 
-
+`sudo cp shell-php.sh /usr/bin`
 
 ### Then you have to enable and start the systemd daemon
 
@@ -70,7 +68,35 @@
 
 `systemctl start shell-php.service`
 
+`sudo systemctl enable shell-php.service`
+
+`sudo systemctl start shell-php.service`
+
+
+
 ###### It is recommended to check the status of the `shell-php.service` daemon using this command: `systemctl status shell-php.service`.
+
+### Then you have to copy the xsessions file. This allows the ability to go to the Smith-Pad-OS-Shell via Display Manager.
+
+`cd xsessions`
+
+`cp xsessions /usr/share/xsessions`
+
+###### Example Display Managers:
+
+* GDM
+
+* LXDM
+
+* SDDM
+
+
+
+### Then reboot the system. This is recommended so that the components will be fully ready for use.
+
+`reboot`
+
+`sudo reboot`
 
 
 
