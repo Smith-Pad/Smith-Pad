@@ -2,10 +2,8 @@
 
 ## Compile things to make it work
 
-function createDirectory() {
-        cd /var
+sudo su 
 
-        
-}
+cd EXPORT-TO-COMPILE-TESTS
 
-createDirectory
+cp -R * /var
