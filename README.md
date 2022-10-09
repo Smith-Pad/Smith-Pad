@@ -46,6 +46,36 @@
 
 `sudo pacman -S xorg-xinit`
 
+
+
+### First you have to copy the systemd daemon. This allows systemd to automatically start the php service every time the system boots.
+
+`cd systemd/system`
+
+`cp shell-php.service /etc/systemd/system`
+
+
+
+### Then you have to copy the shell script. This allows systemd to call the script to automatically start the php service every time the system boots.
+
+`cd php-shell-script`
+
+`cp shell-php.sh /usr/bin`
+
+
+
+### Then you have to enable and start the systemd daemon
+
+`systemctl enable shell-php.service`
+
+`systemctl start shell-php.service`
+
+###### It is recommended to check the status of the `shell-php.service` daemon using this command: `systemctl status shell-php.service`.
+
+
+
+# DRAFT
+
 ### Make sure you are in in the root directory as root
 
 `sudo su`
@@ -71,7 +101,3 @@
 `cd yay`
 
 `makepkg -si`
-
-
-
-# Section 2:
