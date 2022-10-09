@@ -1,0 +1,8 @@
+[Unit]
+Description=Shell PHP
+
+[Service]
+ExecStart=/bin/bash /usr/bin/shell-php.sh
+
+[Install]
+WantedBy=multi-user.target
