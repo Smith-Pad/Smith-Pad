@@ -5,14 +5,14 @@
  @import url('../../FOIL-UI.css');
 
  body{
-        background-color:rgb(25, 25, 25);
+        background-color:rgb(216, 134, 0);
  }
 
  .FOIL-navigation-bar-regular {
-        background-color: rgb(25, 25, 25);
+        background-color: rgb(222, 203, 107);
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
-        color: white;
+        color: black;
  }
 
  .FOIL-button-small-no-shadow {
@@ -78,9 +78,9 @@
 }
  
  .FOIL-layout-regular-no-shadow {
-         background-color:rgb(59, 59, 59);
+         background-color: rgb(212, 191, 87);
          border-radius: 10px 10px 20px 30px;
-         color: white;
+         color: black;
          padding: 40px 40px 40px 40px;
          transition-duration: 1s;
          animation-name: layout-animation;
@@ -90,7 +90,7 @@
  
  
  .FOIL-layout-regular-no-shadow:hover {
-         background-color:black;
+         background-color: rgb(222, 203, 107);
          color: white;
          padding: 50px 50px 50px 50px;
          border-radius: 20px;
@@ -106,14 +106,12 @@
 
  @keyframes layout-animation {
         from {
-                background-color:rgb(59, 59, 59);
                 border-radius: 10px 10px 20px 30px;
                 color: white;
                 padding: 300px 40px 40px 40px;
         }
 
         to {
-                background-color:rgb(59, 59, 59);
                 border-radius: 10px 10px 20px 30px;
                 color: white;
                 padding: 40px 40px 40px 40px;
@@ -146,12 +144,10 @@
          */
 
         .FOIL-navigation-bar-regular {
-                background-color: rgb(25, 25, 25);
                 padding: 20px 20px 20px 20px;
                 display: grid;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
-                color: white;
          }
 
          .FOIL-button-regular-no-shadow {
