@@ -78,7 +78,7 @@
 }
  
  .FOIL-layout-regular-no-shadow {
-         background-color: rgb(222, 203, 107);
+         background-color: rgb(212, 191, 87);
          border-radius: 10px 10px 20px 30px;
          color: black;
          padding: 40px 40px 40px 40px;
@@ -90,7 +90,7 @@
  
  
  .FOIL-layout-regular-no-shadow:hover {
-         background-color:black;
+         background-color: rgb(222, 203, 107);
          color: white;
          padding: 50px 50px 50px 50px;
          border-radius: 20px;
@@ -148,7 +148,6 @@
                 display: grid;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
-                color: white;
          }
 
          .FOIL-button-regular-no-shadow {
