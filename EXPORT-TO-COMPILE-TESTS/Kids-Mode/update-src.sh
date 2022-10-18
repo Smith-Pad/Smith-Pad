@@ -3,31 +3,31 @@
 ## Making it easier to update it. Without having to 
 ## Manually update all of the src files for a long time. 
 
-function copyToAppsFolder() {
+function AppsFolder() {
         cp -R src Applications
         echo "[ OK ]"
 }
 
 
-function copyToHomeScreenFolder() {
+function HomeScreenFolder() {
         cp -R src Home-Screen
         echo "[ OK ]"
 }
 
-function copyToSettingsMenu() {
+function SettingsMenu() {
         cp -R src Settings-Menu
         echo "[ OK ]"
 }
 
 
-function copytoSubjects() {
+function Subjects() {
         cp -R src Subjects 
         echo "[ OK ]"
 }
 
 
 
-copyToAppsFolder
-copyToHomeScreenFolder
-copyToSettingsMenu
-copytoSubjects
+AppsFolder
+HomeScreenFolder
+SettingsMenu
+Subjects
