@@ -72,8 +72,6 @@
 
 `sudo systemctl start shell-php.service`
 
-
-
 ###### It is recommended to check the status of the `shell-php.service` daemon using this command: `systemctl status shell-php.service`.
 
 ### Then you have to copy the xsessions file. This allows the ability to go to the Smith-Pad-OS-Shell via Display Manager.
@@ -90,40 +88,10 @@
 
 * SDDM
 
-
-
 ### Then reboot the system. This is recommended so that the components will be fully ready for use.
 
 `reboot`
 
 `sudo reboot`
 
-
-
-# DRAFT
-
-### Make sure you are in in the root directory as root
-
-`sudo su`
-
-`git clone https://github.com/Smith-Pad/Smith-Pad-OS-Installation-Script`
-
-`cd Smith-Pad-OS-Installation-Script`
-
-### For now, checkout branch to fixing-stuff
-
-##### Eventually, it will be merged into the main branch
-
-`git checkout fixing-stuff`
-
-`sh install.sh`
-
-### Follow the instructions in the `install.sh script`
-
-### Installation of `yay`
-
-`git clone https://aur.archlinux.org/yay.git`
-
-`cd yay`
-
-`makepkg -si`
+# 
