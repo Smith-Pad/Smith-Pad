@@ -21,7 +21,6 @@ function content() {
         print('<a href="Settings-Menu/index.php" class="FOIL-button-regular-no-shadow">Settings</a>');
         print('<a href="#" class="FOIL-button-regular-no-shadow">Schedule Display</a>');
         print('<a href="#" class="FOIL-button-regular-no-shadow">Math Operations</a>');
-        print('<a href="Subjects/index.php" class="FOIL-button-regular-no-shadow">Subjects</a>');
         print('<a href="Applications/Clock/index.php" class="FOIL-button-regular-no-shadow">Clock Mode</a>');
 }
 content();
