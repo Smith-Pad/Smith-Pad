@@ -23,4 +23,3 @@ function content() {
 }
 content();
 ?>
-y
