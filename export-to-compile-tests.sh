@@ -63,9 +63,9 @@ cp -R * ../EXPORT-TO-COMPILE-TESTS/Subjects
 
 ## ---------------Applications------------------
 
-cd ../EXPORT-TO-COMPILE-TESTS
-mkdir APPS
+# cd ../EXPORT-TO-COMPILE-TESTS
+# mkdir APPS
 
-cd ../Applications
-cp -R * ../EXPORT-TO-COMPILE-TESTS/APPS
+# cd ../Applications
+# cp -R * ../EXPORT-TO-COMPILE-TESTS/APPS
 
