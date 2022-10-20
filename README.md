@@ -20,6 +20,8 @@
 
 * Integrating with Smith-Pad-OS. 
 
+* Interacting with Hardware Devices
+
 #### Requirements
 
 - [ ] Arch Linux
