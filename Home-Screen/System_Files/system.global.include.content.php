@@ -19,7 +19,7 @@ function content() {
         print('<script src="src/FOIL-time.js"></script>');
         print('<center><FOIL-font-size-40> Menu </FOIL-font-size-40></center>');
         print('<a href="Settings-Menu/index.php" class="FOIL-button-regular-no-shadow">Settings</a>');
-        print('<a href="#" class="FOIL-button-regular-no-shadow">Applications</a>');
+        print('<a href="launch-apps-launcher.php" class="FOIL-button-regular-no-shadow">Applications</a>');
 }
 content();
 ?>
