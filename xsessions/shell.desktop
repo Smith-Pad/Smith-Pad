@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=Smith-Pad-OS-Shell
-Comment=This session logs you into the Smith-Pad-OS-Shell
-Exec=/usr/bin/chromium --kiosk http://localhost:3000 
-Icon=
-Type=Application
