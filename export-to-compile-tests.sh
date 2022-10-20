@@ -10,7 +10,8 @@
 ##
 ##
 
-
+rm -rf EXPORT-TO-COMPILE-TESTS
+mkdir EXPORT-TO-COMPILE-TESTS
 
 ###################################################
 #                NORMAL MODE
