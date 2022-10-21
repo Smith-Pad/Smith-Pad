@@ -1,0 +1,102 @@
+/**
+ * modaru.css
+ * 
+ * Framework for dynamic box popups. This is based on the pre-decessor of FOIL-bar.css
+ * 
+ * Modified for the Smith-Pad-OS-Shell
+ * 
+ */
+ @import './background.css';
+
+
+ /* A One-Page Interface using popups similar to a desktop user interface */
+ /* modaru is mostly used on Smith Pad */
+ 
+ /* Triggers the Popup box */
+ .activate {
+         position: fixed;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         visibility: hidden;
+         opacity: 0;
+ }
+ 
+ .activate:target {
+         visibility: visible;
+         opacity: 1;
+ }
+ 
+ .modaru {
+        background-color:rgb(59, 59, 59);
+        border-radius: 10px 10px 20px 30px;
+        color: white;
+        padding: 40px 40px 40px 40px;
+        transition-duration: 1s;
+ }
+
+
+
+ @keyframes modaru-animation {
+        from {
+                background-color:rgb(59, 59, 59);
+                border-radius: 10px 10px 20px 30px;
+                color: white;
+                padding: 300px 40px 40px 40px;
+        }
+
+        to {
+                background-color:rgb(59, 59, 59);
+                border-radius: 10px 10px 20px 30px;
+                color: white;
+                padding: 40px 40px 40px 40px;
+        }
+ }
+
+ .modaru:hover {
+        background-color:black;
+        color: white;
+        padding: 50px 50px 50px 50px;
+        border-radius: 20px;
+        transition-duration: 0.5s;
+ }
+ 
+ .modaru .close {
+         position: fixed;
+         top: 20px;
+         right: 30px;
+         font-size: 58px;
+         font-weight: 500;
+         text-decoration: none;
+         color: red;
+         transition-duration: 0.2s;
+ }
+ 
+ .modaruclose {
+         position: absolute;
+         top: 20px;
+         right: 30px;
+         font-size: 58px;
+         font-weight: 500;
+         text-decoration: none;
+         color: red;
+ }
+ 
+ .modaru .content {
+         max-height: 30%;
+         width: 30%;
+         overflow: auto;
+ }
+ 
+ 
+ 
+ 
+ .layout {
+ 
+         color: white;
+         padding: 10em 1em;
+         position: relative;
+         z-index: 2;
+ 
+ }       
