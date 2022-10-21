@@ -1,4 +1,4 @@
 <?php
-exec('restart-script.sh');
+exec('sh restart-script.sh');
 
 ?>

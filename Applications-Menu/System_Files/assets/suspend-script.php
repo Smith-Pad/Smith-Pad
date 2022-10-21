@@ -1,4 +1,4 @@
 <?php
-exec('suspend-script.sh');
+exec('sh suspend-script.sh');
 
 ?>
