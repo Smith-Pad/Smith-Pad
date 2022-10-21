@@ -1,4 +1,4 @@
 <?php
-exec('shutdown-script.php');
+exec('shutdown-script.sh');
 
 ?>
