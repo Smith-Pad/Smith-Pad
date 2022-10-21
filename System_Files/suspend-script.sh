@@ -6,6 +6,6 @@ function suspend() {
 }
 
 
-timer
+
 suspend
 

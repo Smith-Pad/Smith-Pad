@@ -3,10 +3,24 @@
 // Example
 // <a href="#" class="FOIL-button-regular-no-shadow"></a>
 function naviButtons() {
-        print('<a href="assets/shutdown-script.php" class="FOIL-button-regular-no-shadow">Shutdown</a>');
-        print('<a href="assets/restart-script.php" class="FOIL-button-regular-no-shadow">Restart</a>');
-        print('<a href="assets/suspend-script.php" class="FOIL-button-regular-no-shadow">Suspend</a>');
+        print('<form method="post">');
+                print('<input type="submit" name="Shutdown" class="FOIL-button-regular-no-shadow" value="Shutdown" />');
+                print('<input type="submit" name="Restart" class="FOIL-button-regular-no-shadow" value="Restart" />');
+                print('<input type="submit" name="Suspend" class="FOIL-button-regular-no-shadow" value="Suspend" />');
+                print('</form>');
         print('</div>');
+
+        if(isset($_POST['Shutdown'])) {
+                shell_exec('touch SHUTDOWN');
+        }
+        if(isset($_POST['Restart'])) {
+                shell_exec('touch RESTART');
+        }
+        if(isset($_POST['Suspend'])) {
+                shell_exec('touch SUSPEND');
+        }
 }
 naviButtons();
+
+
 ?>
