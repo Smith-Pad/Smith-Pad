@@ -3,7 +3,7 @@ function naviButtons() {
         print('<form method="post">');
                 print('<input type="submit" name="Shutdown" class="FOIL-button-regular-no-shadow" value="Shutdown" />');
                 print('<input type="submit" name="Restart" class="FOIL-button-regular-no-shadow" value="Restart" />');
-                print('<input type="submit" name="Suspend" class="FOIL-button-regular-no-shadow" value="Suspend" />');
+                print('<input type="submit" name="Sleep" class="FOIL-button-regular-no-shadow" value="Sleep" />');
                 print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Back</a>');
                 print('</form>');
         print('</div>');
@@ -15,7 +15,7 @@ function naviButtons() {
         if(isset($_POST['Restart'])) {
                 shell_exec('systemctl reboot');
         }
-        if(isset($_POST['Suspend'])) {
+        if(isset($_POST['Sleep'])) {
                 shell_exec('systemctl suspend');
         }
 }
