@@ -1,13 +1,23 @@
 <?php
-// Include Buttons in navigation if it is required so
-// Example
-// <a href="#" class="FOIL-button-regular-no-shadow"></a>
 function naviButtons() {
-        print('<a href="/assets/shutdown-script.php" class="FOIL-button-regular-no-shadow">Shutdown</a>');
-        print('<a href="/assets/suspend-script.php" class="FOIL-button-regular-no-shadow">Suspend</a>');
-        print('<a href="/assets/restart-script.php" class="FOIL-button-regular-no-shadow">Restart</a>');
-        print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Back</a>');
+        print('<form method="post">');
+                print('<input type="submit" name="Shutdown" class="FOIL-button-regular-no-shadow" value="Shutdown" />');
+                print('<input type="submit" name="Restart" class="FOIL-button-regular-no-shadow" value="Restart" />');
+                print('<input type="submit" name="Suspend" class="FOIL-button-regular-no-shadow" value="Suspend" />');
+                print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Back</a>');
+                print('</form>');
         print('</div>');
+
+
+        if(isset($_POST['Shutdown'])) {
+                shell_exec('systemctl shutdown');
+        }
+        if(isset($_POST['Restart'])) {
+                shell_exec('systemctl reboot');
+        }
+        if(isset($_POST['Suspend'])) {
+                shell_exec('systemctl suspend');
+        }
 }
 naviButtons();
 ?>
