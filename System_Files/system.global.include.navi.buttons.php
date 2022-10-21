@@ -11,13 +11,13 @@ function naviButtons() {
         print('</div>');
 
         if(isset($_POST['Shutdown'])) {
-                shell_exec('touch SHUTDOWN');
+                shell_exec('systemctl shutdown');
         }
         if(isset($_POST['Restart'])) {
-                shell_exec('touch RESTART');
+                shell_exec('systemctl reboot');
         }
         if(isset($_POST['Suspend'])) {
-                shell_exec('touch SUSPEND');
+                shell_exec('systemctl suspend');
         }
 }
 naviButtons();
