@@ -2,11 +2,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <meta http-equiv="refresh" content="12; URL=suspend-script.php" />
 
 </head>
 
@@ -19,58 +21,83 @@
         }
 
         .animatecontainer {
-                position: absolute;
+                /* Make a square */
+                width: 99%;
                 top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background-color: yellow;
-                border-radius: 100%;
-                border: 1px solid black;
-                border-color: black;
-                animation-name: animatecontainer;
-                animation-duration: 500ms;
+                position: absolute;
+                background-color: rgb(132, 3, 218);
+                animation-name: down;
+                animation-duration: 12s;
+        }
+
+        @keyframes down {
+                from {
+                        height: 0%;
+                }
+                to {
+                        height: 99%;
+                }
+        }
+
+
+        .container {
+                background-color: rgb(132, 3, 218);
+                padding: 20px;
+                border-radius: 5px;
+                position: absolute;
+                top: 400px;
+                left: 700px;
+                animation: animatecontainer 1s ease 0s 1 normal forwards;
+
         }
 
         @keyframes animatecontainer {
-                from {
-                        border-radius: 0%;
+                0% {
+                        transform: scale3d(0, 0, 0);
                 }
-                to {
-                        border-radius: 100%;
+
+                30% {
+                        /* transform: scale3d(0.75, 1.25, 1); */
+                        transform: scale3d(0, 0, 0);
+                }
+
+                40% {
+                        transform: scale3d(1.25, 0.75, 1);
+                }
+
+                50% {
+                        transform: scale3d(0.85, 1.15, 1);
+                }
+
+                65% {
+                        transform: scale3d(1.05, 0.95, 1);
+                }
+
+                75% {
+                        transform: scale3d(0.95, 1.05, 1);
+                }
+
+                100% {
+                        transform: scale3d(1, 1, 1);
                 }
         }
 
-        .container {
-            background-color: rgb(218, 99, 3);
-            padding: 20px;
-            border-radius: 5px;
-            position: absolute;
-            top: 400px;
-            left: 300px;
-            animation-name: containeranimate;
-        }
-
-
-        @keyframes containeranimate {
-                from {
-                        border-radius: 0%;
-                }
-                to {
-                        border-radius: 100%;
-                }
-        }
 
         .container .text {
                 font-size: 78px;
         }
+
+
+        
 </style>
+
 <body>
         <div class="animatecontainer">
-
+                hello
         </div>
         <div class="container">
-        <div class="text">Suspending</div>
-        </div> 
+                <div class="text">SLEEPING...</div>
+        </div>
 </body>
+
 </html>
