@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <!-- <meta http-equiv="refresh" content="12; URL=suspend-script.php" /> -->
+        <!-- <meta http-equiv="refresh" content="2; URL=suspend-script.php" />  -->
 
 </head>
 
@@ -27,7 +27,7 @@
                 position: absolute;
                 background-color: rgb(132, 3, 218);
                 animation-name: down;
-                animation-duration: 12s;
+                animation-duration: 2s;
         }
 
         @keyframes down {
@@ -87,7 +87,27 @@
                 font-size: 78px;
         }
 
+        @media only screen and (max-width: 600px) {
+                .container {
+                padding: 10px;
+                background-color: rgb(132, 3, 218);
+                border-radius: 5px;
+                position: absolute;
+                top: 400px;
+                left: 40px;
+                animation: animatecontainer 1s ease 0s 1 normal forwards;
+        }  
+        }
 
+
+ /** 
+ *      @media feature. 
+ *      If the Smith-Pad-OS-Shell is being used on a bigger device like 
+ *      like on a TV like bigger display, then it will enhance the 
+ *      interface to be compatible with the smaller devices. 
+ *
+ */
+        @media only screen and (max-width: 600px) {}
         
 </style>
 
