@@ -93,6 +93,7 @@ function uiSettings() {
  */
 
 function packageManager() {
+        print('<div class="FOIL-font-styles sans-serif">');
         print('<div class="FOIL-layout-regular">');
         print('<FOIL-Font-Size-60>Software Management</FOIL-Font-Size-60>');
         include('../src/avakasaya/space4.php');
@@ -109,8 +110,7 @@ function packageManager() {
 
         // Update Smith-Pad Web Interface
         print('<a href="Update-Interface/index.php" class="FOIL-button-regular-no-shadow">Update Shell</a>');
-
-
+        print('</div>');
         print('</div>');
 }
 
