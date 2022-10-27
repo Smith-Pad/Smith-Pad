@@ -15,7 +15,8 @@ function includeUI() {
 function banner() {
         print('<div class="FOIL-font-styles sans-serif">');
         print('<div class="FOIL-navigation-bar-regular">');
-        print('<h1> System Settings </h1>');               
+        print('<h1> System Settings </h1>');      
+        print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Back</a>');         
         print('</div>');                                                                                                        // Banner Name
         print('</div>');
 }
@@ -111,7 +112,7 @@ function packageManager() {
         // Update Smith-Pad Web Interface
         print('<a href="Update-Interface/index.php" class="FOIL-button-regular-no-shadow">Update Shell</a>');
         print('</div>');
-        print('</div>');
+        print('</div>');        
 }
 
 includeUI();
