@@ -1,72 +1,194 @@
-/*******************************************************
- *		config.css
- *
- *
- *	Customize FOIL-UI.css  Components
- *******************************************************/
+/************************************************************************
+ *      config.css
+ *      Light Mode
+ ************************************************************************/
+ @import url('../../FOIL-UI.css');
 
-@import url('FOIL-UI.css');
+ body{
+        background-color:rgb(25, 25, 25);
+ }
 
-body {
-        background: linear-gradient(120deg, rgb(29, 0, 66) 51%, rgb(15, 39, 0) 70%);
+ .FOIL-navigation-bar-regular {
+        background-color: rgb(25, 25, 25);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         color: white;
-}
+ }
 
-.FOIL-button {
-        background: linear-gradient(120deg, rgb(35, 0, 82) 51%, rgba(41, 102, 0));
-}
+ .FOIL-button-small-no-shadow {
+         background-color: rgb(35, 34, 34);
+         color:white;
+         padding: 10px 60px 17px 17px;
+         border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+         border-radius: 20px;
+         transition-duration: 0.5s;  	
+ }
 
-
-.FOIL-button:hover {
-        background: linear-gradient(120deg, rgba(134, 44, 255, 1) 51%, rgba(110, 148, 84, 1) 70%);
-        box-shadow: red;
-        border-style: solid;
-        padding: 100px 43px;
-}
-
-.FOIL-button-small {
-        background: linear-gradient(90deg, rgba(135, 44, 255, 0.082) 21%, rgba(110, 148, 84, 0.087) 58%);
-        font-size: 20px;
-        border-top: 1px;
-        border-color: rgba(110, 148, 84, 1) rgba(134, 44, 255, 1);
-        border-style: solid;
-}
-
-.FOIL-button-small:hover {
-        background: linear-gradient(120deg, rgba(134, 44, 255, 1) 51%, rgba(110, 148, 84, 1) 70%);
+ .FOIL-button-small-no-shadow:hover {
+        background-color:black;
+        color: white;
+        padding: 50px 50px 50px 50px;
+        border-radius: 20px;
+        transition-duration: 0.5s;
 }
 
 
-.FOIL-navigation-bar {
-        background: linear-gradient(circle, rgba(110, 148, 84, 1) 0%, rgba(134, 44, 255, 1) 80%);
+.FOIL-button-small-no-shadow:active {
+        background-color:rgb(255, 0, 0);
+        color: white;
+        padding: 50px 50px 500px 50px;
+        /* margin-right: 500px; */
+        border-radius: 20px;
+        transition-duration: 1s;
+}
+
+ .FOIL-button-regular-no-shadow {
+         background-color: rgb(35, 34, 34);
+         color:white;
+         padding: 20px 80px 20px 40px;
+         border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+         border-radius: 20px;
+         transition-duration: 0.5s;
+ }
+ 
+ .FOIL-button-regular-no-shadow:hover {
+         background-color:black;
+         color: white;
+         padding: 50px 50px 50px 50px;
+         border-radius: 20px;
+         transition-duration: 0.5s;
+ }
+ 
+ 
+ .FOIL-button-regular-no-shadow:active {
+         background-color:rgb(255, 0, 0);
+         color: white;
+         padding: 50px 50px 500px 50px;
+         /* margin-right: 500px; */
+         border-radius: 20px;
+         transition-duration: 1s;
+ }
+ 
+ .FOIL-layout-regular {
+        background: linear-gradient(12deg, #3d4348, #3d4348);
         border-radius: 10px;
         color: white;
 }
+ 
+ .FOIL-layout-regular-no-shadow {
+         background-color:rgb(59, 59, 59);
+         border-radius: 10px 10px 20px 30px;
+         color: white;
+         padding: 40px 40px 40px 40px;
+         transition-duration: 1s;
+         animation-name: layout-animation;
+         animation-duration: 1s;
+ }
+ 
+ 
+ 
+ .FOIL-layout-regular-no-shadow:hover {
+         background-color:black;
+         color: white;
+         padding: 50px 50px 50px 50px;
+         border-radius: 20px;
+         transition-duration: 0.5s;
+ 
+ }
+
+/**
+ *      keyframes
+ *
+ *
+ */
+
+ @keyframes layout-animation {
+        from {
+                background-color:rgb(59, 59, 59);
+                border-radius: 10px 10px 20px 30px;
+                color: white;
+                padding: 300px 40px 40px 40px;
+        }
+
+        to {
+                background-color:rgb(59, 59, 59);
+                border-radius: 10px 10px 20px 30px;
+                color: white;
+                padding: 40px 40px 40px 40px;
+        }
+ }
 
 
-.FOIL-layout {
-        background: linear-gradient(90deg, rgba(135, 44, 255, 0.082) 21%, rgba(110, 148, 84, 0.087) 58%);
-        border-radius: 10px;
-        color: white;
-}
+/* * 
+ *      @media feature. 
+ *      If the Smith-Pad-OS-Shell is being used on a smaller device like a 
+ *      smart phone like screen, then it will enhance the interface to be 
+ *      compatible with the smaller devices. 
+ *     
+ */
 
 
+ /* Smart Phone */
+ @media only screen and (max-width: 600px) {
+        /** 
+         *      Shrink the h1 font size to 19 pixels. 
+         */
+        h1 {
+                font-size: 19px;
+        }
+
+        /** 
+         *      Shrink the navigation bar regular 
+         *
+         *
+         */
+
+        .FOIL-navigation-bar-regular {
+                padding: 20px 20px 20px 20px;
+                display: grid;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                color: white;
+         }
+
+         .FOIL-button-regular-no-shadow {
+                font-size: auto;
+         }
+
+         /**
+          *     Shrink the font size to 40px;
+          *
+          *
+          */
+
+         FOIL-font-size-60 {
+                font-size: 40px;
+         }
 
 
-h1 {
-        color: white;
-}
+         /** 
+          *     Shrink the font-size to 20px
+          *
+          *
+          *
+          *
+          */
 
-pre {
-        color: white;
-}
+         FOIL-font-size-40 {
+                font-size: 20px;
+         }
+ }
 
 
-FOIL-font-size-30 {
-        color: white;
-}
-
-
-FOIL-font-size-60 {
-        color: white;
-}
+/** 
+ *      @media feature. 
+ *      If the Smith-Pad-OS-Shell is being used on a bigger device like 
+ *      like on a TV like bigger display, then it will enhance the 
+ *      interface to be compatible with the smaller devices. 
+ *
+ */
+ @media only screen and (max-width: 600px) {
+        
+ }
