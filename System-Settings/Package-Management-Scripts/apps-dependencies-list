@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+#############################################################################
+##                      Apps-Dependencies-List
+##              
+##
+##
+##
+##           Any New Apps and Dependencies can be added here      
+#############################################################################
+
+
+
+function productivity() {
+        pkexec pacman -S --noconfirm marktext >> apps.list
+        pkexec pacman -S --noconfirm libreoffice-fresh >> apps.list
+}
+
+function webBrowser() {
+        pkexec pacman -S --noconfirm google-chrome >> apps.list
+        pkexec pacman -S --noconfirm librewolf >> apps.list
+}
+
+
+function education() {
+        pkexec pacman -S --noconfirm kturtle >> apps.list
+}
+
+function systemTools() {
+        pkexec pacman -S --noconfirm ranger >> apps.list
+        pkexec pacman -S --noconfirm micro >> apps.list
+        pkexec pacman -S --noconfirm npm >> apps.list
+        pkexec pacman -S --noconfirm php >> apps.list
+        pkexec pacman -S --noconfirm micro >> apps.list
+        pkexec pacman -S --noconfirm fish >> apps.list
+
+}
