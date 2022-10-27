@@ -72,8 +72,8 @@ function uiSettings() {
         print('<div class="FOIL-layout-regular">');
         print('<FOIL-Font-Size-60>UI Settings</FOIL-Font-Size-60>');
         include('../src/avakasaya/space4.php');
-        print('<a href="UI-Settings/light-mode.php" class="FOIL-button-regular">Light Mode</a>');                // Change to Light Mode
-        print('<a href="UI-Settings/dark-mode.php" class="FOIL-button-regular">Dark Mode</a>');                  // Change to Dark Mode
+        // print('<a href="UI-Settings/light-mode.php" class="FOIL-button-regular">Light Mode</a>');                // Change to Light Mode
+        // print('<a href="UI-Settings/dark-mode.php" class="FOIL-button-regular">Dark Mode</a>');                  // Change to Dark Mode
         print('</div>');
 }
 
