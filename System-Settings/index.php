@@ -16,7 +16,7 @@ function banner() {
         print('<div class="FOIL-font-styles sans-serif">');
         print('<div class="FOIL-navigation-bar-regular">');
         print('<h1> System Settings </h1>');      
-        print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Back</a>');         
+        print('<a href="../index.php" class="FOIL-button-regular-no-shadow">Back</a>');          
         print('</div>');                                                                                                        // Banner Name
         print('</div>');
 }
@@ -33,6 +33,11 @@ function displayOptions() {
         print('<div class="FOIL-layout-regular">');
         print('<FOIL-Font-Size-60>Display Options</FOIL-Font-Size-60>');
         include('../src/avakasaya/space4.php');
+
+        /*********************************************************************
+         *      Allows the user to rotate the device display screen based
+         *      to their liking.
+         *********************************************************************/
         print('<FOIL-Font-Size-30>Rotation</FOIL-Font-Size-30>');
         include('../src/avakasaya/space2.php');
         print('<a href="Screen-Resolution/normal.php" class="FOIL-button-regular-no-shadow">Normal</a>');                       // Make the screen normal
@@ -40,6 +45,14 @@ function displayOptions() {
         print('<a href="Screen-Resolution/left.php" class="FOIL-button-regular-no-shadow">Portrait (Left)</a>');                // Make the screen portrait
         print('<a href="Screen-Resolution/right.php" class="FOIL-button-regular-no-shadow">Portrait (Right)</a>');              // Make the screen portrait        
         include('../src/avakasaya/space4.php');
+
+
+
+        /*********************************************************************
+         *      Allows the user to display the device display brightness 
+         *      based to their liking.
+         *********************************************************************/
+                
         print('<FOIL-Font-Size-30>Display Brightness</FOIL-Font-Size-30>');
         include('../src/avakasaya/space2.php');
         print('<a href="Display-Brightness/10-percent.php" class="FOIL-button-regular-no-shadow">10</a>');		        // Set Display Brightness to 10%
@@ -67,7 +80,11 @@ function displayOptions() {
  */
 
 function uiSettings() {
-        print('<div class="FOIL-font-styles sans-serif">');
+        print('<div class="FOIL-font-styles sans-serif">');        
+                /*********************************************************************
+                *      Allows the user to rotate the device display screen based
+                *      to their liking.
+                *********************************************************************/
         print('<div class="FOIL-layout-regular">');
         print('<FOIL-Font-Size-60>UI Settings</FOIL-Font-Size-60>');
         include('../src/avakasaya/space4.php');
