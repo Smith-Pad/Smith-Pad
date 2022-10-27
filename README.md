@@ -31,7 +31,7 @@
 - [ ] xorg
 - [ ] xorg-server
 - [ ] xorg-xinit
-- [ ] ungoogled-chromium
+- [ ] librewolf
 - [ ] FOIL-UI-Framework-Library
 - [ ] GNOME Libraries/Dependencies
 
@@ -49,4 +49,4 @@
 
 `sudo pacman -S xorg-xinit`
 
-`yay -S ungoogled-chromium`
+`yay -S librewolf-bin`
