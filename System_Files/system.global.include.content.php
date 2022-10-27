@@ -19,6 +19,7 @@ function content() {
         print('<script src="src/FOIL-time.js"></script>');
         print('<center><FOIL-font-size-40> Menu </FOIL-font-size-40></center>');
         print('<a href="System-Settings/index.php" class="FOIL-button-regular-no-shadow">Settings</a>');
+        print('<a href="System-Settings/index.php" class="FOIL-button-regular-no-shadow">Subjects</a>');
         print('<a href="Applications-Menu/index.php" class="FOIL-button-regular-no-shadow">Apps</a>');
 }
 content();
