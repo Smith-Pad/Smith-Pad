@@ -22,6 +22,14 @@
 
 * Interacting with Hardware Devices
 
+#### What is the goal for this project?
+
+Here are the goals for this project. This related for Smith-Pad-OS, Smith-Pad-OS-Shell, and Smith-Pad overall. 
+
+* Allow schools to use free software. 
+* Allows schools to have free education with free software. 
+* Allows students to have fun while learning a subject. 
+
 #### Requirements
 
 - [ ] Arch Linux
