@@ -57,4 +57,4 @@ Here are the goals for this project. This related for Smith-Pad-OS, Smith-Pad-OS
 
 `sudo pacman -S xorg-xinit`
 
-`yay -S librewolf-bin`
+`yay -S ungoogled-chromium-bin`
