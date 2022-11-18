@@ -2,8 +2,6 @@
 
 <img src="screenshot.png"></img>
 
-# Section 1:
-
 #### Introduction
 
 > Brand new Interface for Smith-Pad-OS and Smith-Pad Web Interface
