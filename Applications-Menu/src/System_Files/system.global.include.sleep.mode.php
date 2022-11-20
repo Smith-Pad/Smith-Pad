@@ -1,4 +1,0 @@
-<?php
-        exec('systemctl suspend');
-
-?>
