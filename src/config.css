@@ -58,18 +58,15 @@
  }
  
  .FOIL-button-regular-no-shadow:hover {
-         background-color:black;
-         color: white;
-         border-radius: 20px;
-         transition-duration: 0.5s;
+         transform: translateX(10px) rotate(10deg);
  }
  
  
  .FOIL-button-regular-no-shadow:active {
-         background-color:rgb(255, 0, 0);
-         color: white;
-         border-radius: 20px;
-         transition-duration: 1s;
+        transform: translateX(10px) rotate(10deg);
+        transform: translateY(-10px) rotate(360deg);
+        font-size: 100px;
+        padding: 100px 200px;
  }
  
  .FOIL-layout-regular {
