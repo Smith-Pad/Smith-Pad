@@ -15,8 +15,9 @@
         <body>
                 
  
-                <?php include 'space[number].php'?>
-                <h2> Test </h2>
 
+                <h2> Test </h2>
+                <?php include('space-3.php'); ?>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n </p>
         </body>
 </html>
