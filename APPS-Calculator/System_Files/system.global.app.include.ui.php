@@ -10,3 +10,4 @@
 <link rel="stylesheet" href="../src/calculator.css" type="text/css">
 <link rel="stylesheet" href="src/FOIL-UI.css" type="text/css">
 <link rel="stylesheet" href="src/config.css" type="text/css">
+<link rel="stylesheet" href="src/position-text.css" type="text/css">
