@@ -52,9 +52,6 @@
          border-radius: 20px;
          transition-duration: 0.5s;
          font-weight: 100px;
-         box-shadow: 10px 10px 36px 0px rgba(133, 133, 133, 0.75);
-         -webkit-box-shadow: 10px 10px 36px 0px rgba(138, 138, 138, 0.75);
-         -moz-box-shadow: 10px 10px 36px 0px rgba(134, 134, 134, 0.75);
  }
  
  .FOIL-button-regular-no-shadow:hover {
