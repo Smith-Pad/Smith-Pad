@@ -30,29 +30,8 @@ Here are the goals for this project. This related for Smith-Pad-OS, Smith-Pad-OS
 
 #### Requirements
 
-- [ ] Arch Linux
-- [ ] git
-- [ ] php
-- [ ] python
-- [ ] xorg
-- [ ] xorg-server
-- [ ] xorg-xinit
-- [ ] librewolf
-- [ ] FOIL-UI-Framework-Library
-- [ ] GNOME Libraries/Dependencies
+Requirement notes will be updated later. 
 
 #### Installation
 
-`sudo pacman -S git`
-
-`sudo pacman -S php`
-
-`sudo pacman -S python`
-
-`sudo pacman -S xorg`
-
-`sudo pacman -S xorg-server`
-
-`sudo pacman -S xorg-xinit`
-
-`yay -S ungoogled-chromium-bin`
+Installation notes will be updated later. 
