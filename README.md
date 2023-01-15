@@ -4,7 +4,7 @@
 
 #### Introduction
 
-> Brand new Interface for Smith-Pad-OS and Smith-Pad Web Interface
+> Brand new Interface for the Smith-Pad ecosystem
 
 #### Benefits of remaking the interface from the bottom up:
 
