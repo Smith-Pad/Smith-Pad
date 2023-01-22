@@ -34,7 +34,7 @@ jobs:
         run: |
           git clone https://github.com/Smith-Pad/Smith-Pad
           cd Smith-Pad
-          cd Gentoo-Components
+          cd gentoo-components
           cd ebuild
           git pull
           cd ..
