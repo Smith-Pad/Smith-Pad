@@ -1,6 +1,0 @@
-[submodule "gentoo-components/gentoo"]
-	path = gentoo-components/gentoo
-	url = https://github.com/Smith-Pad/gentoo
-[submodule "gentoo-components/ebuild"]
-	path = gentoo-components/ebuild
-	url = https://github.com/Smith-Pad/ebuild
